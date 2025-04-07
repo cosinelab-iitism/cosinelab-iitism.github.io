@@ -17,6 +17,15 @@ We are looking for motivated and aspiring candidates for PhD positions (current 
 
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
----
+### PhD Students
 
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+### Masters Students
+
+{% include list.html data="members" component="portrait" filter="role == 'masters'" %}
+
+### Intern and Visiting Students
+
+{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
+{% include list.html data="members" component="portrait" filter="role == 'visiter'" %}
