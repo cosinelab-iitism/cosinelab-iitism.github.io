@@ -47,5 +47,11 @@
         {{ member.affiliation }}
       </span>
     {% endif %}
+
+    {% if member.interests %}
+      <span class="portrait-interests">
+        <span style="color: var(--text);">Work: </span> {{ member.interests }}
+      </span>
+    {% endif %}
   </a>
 </div>

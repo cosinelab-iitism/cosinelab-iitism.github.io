@@ -11,18 +11,75 @@ Our work is currently focused in applying AI/ML techniques for IoT and future ne
 
 <img src="../images/research_areas.jpg" alt="research areas" width="640">
 
-{% include section.html %}
+## Highlights
 
-## Recent Publications
+{% capture text %}
 
-{% include citation.html lookup="DyHSARW: A Dynamic GTS Scheduling Mechanism for Large IEEE 802.15.4 DSME-Based IoT Networks" style="rich" %}
+*Recent acceptance:* Congratulations to Sreekar, Sonali and Amala for getting their works accepted at IEEE WCNC 2025, IEEE ANTS 2024 and IEEE OCIT 2024.
 
-{% include section.html %}
+{%
+  include button.html
+  link="research"
+  text="See our publications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 
-## All
+{% endcapture %}
 
-{% include search-box.html %}
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="research"
+  title="Our Research"
+  text=text
+%}
 
-{% include search-info.html %}
+{% capture text %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+We have received our initial grants: to develop **Low-resource AI Vision system for Mining** supported by TEXMiN Foundation (DST TIH) and a **special lab setup grant** from IIT (ISM) Dhanbad
+
+{%
+  include button.html
+  link="projects"
+  text="Browse our projects"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="projects"
+  title="Our Projects"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+{% capture text %}
+
+Scaria, Subham and Kimsie have joined us for M. Sc. projects. Shrish has joined us for M. Tech project.
+
+{%
+  include button.html
+  link="team"
+  text="Meet our team"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="team"
+  title="Our Team"
+  text=text
+%}

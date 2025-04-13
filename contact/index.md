@@ -7,14 +7,14 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Our lab is part of the Department of Mathematics and Computing at IIT ISM Dhanbad. We are located on the 1st Floor of the Golden Jubliee Lecture Hall.
+Our lab is part of the Department of Mathematics and Computing at IIT (ISM) Dhanbad. We are located in Room 102 on the 1st Floor of the Golden Jubilee Lecture Hall Complex.
 
-{%
+<!-- {%
   include button.html
   type="email"
   text="tamoghnaojha@iitism.ac.in"
   link="tamoghnaojha@iitism.ac.in"
-%}
+%} -->
 
 <!--
 {%
