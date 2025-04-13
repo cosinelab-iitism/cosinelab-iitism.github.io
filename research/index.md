@@ -19,7 +19,7 @@ Our work is currently focused in applying AI/ML techniques for IoT and future ne
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
