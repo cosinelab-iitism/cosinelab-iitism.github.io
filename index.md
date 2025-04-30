@@ -18,6 +18,7 @@ We are _Computing for Secure and Intelligent Networks (COSINE) Lab_, led by [Dr.
 # {% include icon.html icon="fa-solid fa-newspaper" %} News
 
 {% capture raw_news %}
+April 2025: Congratulations to Shubham for being selected for ISRO internship. $
 April 2025: Our collaborative work on ‘Secure Metaverse access’ accepted in MoCS workshop (IEEE ISCC 2025) at Bologna, Italy. $
 April 2025: Serving as TPC member for IEEE LCN 2025. $
 March 2025: Received research grant from TEXMiN Foundation (DST TIH). $
