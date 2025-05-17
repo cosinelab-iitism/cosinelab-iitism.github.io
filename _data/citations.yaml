@@ -323,3 +323,45 @@
   orcid: 0000-0001-5831-0632
   plugin: orcid.py
   file: orcid.yaml
+- id: 10.1109/OCIT65031.2024.00113
+  title: An Off-Chip Based PUF for Robust Security in FPGA Based IoT Systems
+  authors:
+  - Chella Amala
+  - Burra Subbarao
+  - Tamoghna Ojha
+  - Banee Bandana Das
+  - Saswat Kumar Ram
+  - Saraju P. Mohanty
+  publisher: 2024 OITS International Conference on Information Technology (OCIT)
+  date: '2024-12-12'
+  link: https://doi.org/g9kdsq
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/ANTS63515.2024.10898488
+  title: Improving Network Efficiency in Clustered Tree Topology through PSO Optimization
+    in IEEE 802.15.4-DSME based IoT Networks
+  authors:
+  - Sonali Anand
+  - Nikumani Choudhury
+  - Tamoghna Ojha
+  - Anakhi Hazarika
+  - Jay Dave
+  publisher: 2024 IEEE International Conference on Advanced Networks and Telecommunications
+    Systems (ANTS)
+  date: '2024-12-15'
+  link: https://doi.org/g9kdsr
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/WCNC61545.2025.10978176
+  title: 'DyHSARW: A Dynamic GTS Scheduling Mechanism for Large IEEE 802.15.4 DSME-Based
+    IoT Networks'
+  authors:
+  - Kona Sreekar Reddy
+  - Nikumani Choudhury
+  - Anakhi Hazarika
+  - Tamoghna Ojha
+  publisher: 2025 IEEE Wireless Communications and Networking Conference (WCNC)
+  date: '2025-03-24'
+  link: https://doi.org/g9kdss
+  plugin: sources.py
+  file: sources.yaml
