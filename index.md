@@ -18,6 +18,7 @@ We are _Computing for Secure and Intelligent Networks (COSINE) Lab_, led by [Dr.
 # {% include icon.html icon="fa-solid fa-newspaper" %} News
 
 {% capture raw_news %}
+June 2025: Our collaborative work on 'ML-based SDN Security Enhancement' accepted in IEEE INDISCON at Rourkela, India. $
 May 2025: Received _Faculty Research Scheme grant_ of INR 19.99 Lakhs from IIT (ISM) Dhanbad. $
 April 2025: Congratulations to Shubham for being selected for ISRO internship. $
 April 2025: Our collaborative work on ‘Secure Metaverse access’ accepted in MoCS workshop (IEEE ISCC 2025) at Bologna, Italy. $

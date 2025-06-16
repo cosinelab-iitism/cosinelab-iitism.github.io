@@ -27,5 +27,18 @@ We are looking for motivated and aspiring candidates for PhD positions (current 
 
 ### Intern and Visiting Students
 
-{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
-{% include list.html data="members" component="portrait" filter="role == 'visiter'" %}
+#### Summmer 2025 Intern Students
+- Mr. Manjil Nepal. Topic: Federated Learning for Resource-constrained IoT
+- Mr. Saumyaditya Barman. Topic: Future IoT Networks
+- Ms. Jiya Debnath. Topic: TinyML models
+- Mr. Priyangshu Sahaji. Topic: Resource-constrained IoT Networks
+- Mr. Rahul Shil. Topic: Digital Twin Software Model
+
+#### ACM Anveshan Setu Visiting PhD Student
+- Ms. Arshee Naz. Topic: AI/ML-based Communication Protocol for Non-Terrestrial Networks
+
+<!-- {% include list.html data="members" component="portrait" filter="role == 'visiter'" %}
+
+---
+
+{% include list.html data="members" component="portrait" filter="role == 'intern'" %} -->
