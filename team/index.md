@@ -27,8 +27,5 @@ We are looking for motivated and aspiring candidates for PhD positions (current 
 
 ### Intern and Visiting Students
 
-{% include list.html data="members" component="portrait" filter="role == 'visiter'" %}
-
----
-
 {% include list.html data="members" component="portrait" filter="role == 'intern'" %}
+{% include list.html data="members" component="portrait" filter="role == 'visiter'" %}
