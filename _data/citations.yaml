@@ -1,5 +1,328 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.pmcj.2023.101820
+  title: 'Wireless power transfer with unmanned aerial vehicles: State of the art
+    and open challenges'
+  authors:
+  - Tamoghna Ojha
+  - Theofanis P. Raptis
+  - Andrea Passarella
+  - Marco Conti
+  publisher: Pervasive and Mobile Computing
+  date: '2023-06-01'
+  link: https://doi.org/g9dm5m
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.comnet.2022.108989
+  title: Balanced wireless crowd charging with mobility prediction and social awareness
+  authors:
+  - Tamoghna Ojha
+  - Theofanis P. Raptis
+  - Marco Conti
+  - Andrea Passarella
+  publisher: Computer Networks
+  date: '2022-07-01'
+  link: https://doi.org/g9dm5p
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/smartcomp55677.2022.00034
+  title: Wireless Crowd Charging with Battery Aging Mitigation
+  authors:
+  - Tamoghna Ojha
+  - Theofanis P. Raptis
+  - Marco Conti
+  - Andrea Passarella
+  publisher: 2022 IEEE International Conference on Smart Computing (SMARTCOMP)
+  date: '2022-06-01'
+  link: https://doi.org/g9dm5q
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/GLOBECOM48099.2022.10001645
+  title: Heterogeneity-aware P2P Wireless Energy Transfer for Balanced Energy Distribution
+  authors:
+  - Tamoghna Ojha
+  - Theofanis P. Raptis
+  - Marco Conti
+  - Andrea Passarella
+  publisher: GLOBECOM 2022 - 2022 IEEE Global Communications Conference
+  date: '2022-12-04'
+  link: https://doi.org/g9dm5r
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:13235486
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:13235486
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/JSYST.2021.3086150
+  title: 'PANDA: Preference-Based Bandwidth Allocation in Fog-Enabled Internet of
+    Underground-Mine Things'
+  authors:
+  - Sudip Misra
+  - Minu Tiwari
+  - Tamoghna Ojha
+  - Yash Raj
+  publisher: IEEE Systems Journal
+  date: '2021-12-01'
+  link: https://doi.org/g9dm5s
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/JIOT.2021.3051418
+  title: 'Internet of Things for Agricultural Applications: The State of the Art'
+  authors:
+  - Tamoghna Ojha
+  - Sudip Misra
+  - Narendra Singh Raghuwanshi
+  publisher: IEEE Internet of Things Journal
+  date: '2021-07-15'
+  link: https://doi.org/gm9m68
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ISCC53001.2021.9631530
+  title: 'MobiWEB: Mobility-Aware Energy Balancing for P2P Wireless Power Transfer'
+  authors:
+  - Tamoghna Ojha
+  - Theofanis P. Raptis
+  - Marco Conti
+  - Andrea Passarella
+  publisher: 2021 IEEE Symposium on Computers and Communications (ISCC)
+  date: '2021-09-05'
+  link: https://doi.org/g9dm5v
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3431390
+  title: SecRET
+  authors:
+  - Sudip Misra
+  - Tamoghna Ojha
+  - Madhusoodhanan P
+  publisher: ACM Transactions on Autonomous and Adaptive Systems
+  date: '2020-03-31'
+  link: https://doi.org/g6w2kw
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.COMCOM.2020.02.050
+  title: 'SEAL: Self-adaptive AUV-based localization for sparsely deployed Underwater
+    Sensor Networks'
+  authors:
+  - Tamoghna Ojha
+  - Sudip Misra
+  - Mohammad S. Obaidat
+  publisher: Computer Communications
+  date: '2020-03-01'
+  link: https://doi.org/g9dm5w
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/JIOT.2019.2899949
+  title: "DVSP: Dynamic Virtual Sensor Provisioning in Sensor\u2013Cloud-Based Internet\
+    \ of Things"
+  authors:
+  - Tamoghna Ojha
+  - Sudip Misra
+  - Narendra Singh Raghuwanshi
+  - Hitesh Poddar
+  publisher: IEEE Internet of Things Journal
+  date: '2019-06-01'
+  link: https://doi.org/grhhfs
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000465774304033
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000465774304033
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/DAC.2882
+  title: Oceanic forces and their impact on the performance of mobile underwater acoustic
+    sensor networks
+  authors:
+  - Amit Kumar Mandal
+  - Sudip Misra
+  - Tamoghna Ojha
+  - Mihir Kumar Dash
+  - Mohammad S. Obaidat
+  publisher: International Journal of Communication Systems
+  date: '2014-10-31'
+  link: https://doi.org/g9dm5x
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.COMPAG.2017.01.026
+  title: 'Sensing-cloud: Leveraging the benefits for agricultural applications'
+  authors:
+  - Tamoghna Ojha
+  - Sudip Misra
+  - Narendra Singh Raghuwanshi
+  publisher: Computers and Electronics in Agriculture
+  date: '2017-04-01'
+  link: https://doi.org/g758ns
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.COMNET.2016.09.021
+  title: 'ENTRUST: Energy trading under uncertainty in smart grid systems'
+  authors:
+  - Sudip Misra
+  - Samaresh Bera
+  - Tamoghna Ojha
+  - Hussein T. Mouftah
+  - Alagan Anpalagan
+  publisher: Computer Networks
+  date: '2016-12-01'
+  link: https://doi.org/f9d4m6
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/JSEN.2015.2443012
+  title: Effects of Wind-Induced Near-Surface Bubble Plumes on the Performance of
+    Underwater Wireless Acoustic Sensor Networks
+  authors:
+  - Amit Kumar Mandal
+  - Sudip Misra
+  - Tamoghna Ojha
+  - Mihir Kumar Dash
+  - Mohammad S. Obaidat
+  publisher: IEEE Sensors Journal
+  date: '2016-06-01'
+  link: https://doi.org/f8nqss
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/DAC.2843
+  title: Performance analysis of distributed underwater wireless acoustic sensor networks
+    systems in the presence of internal solitons
+  authors:
+  - Amit Kumar Mandal
+  - Sudip Misra
+  - Mihir Kumar Dash
+  - Tamoghna Ojha
+  publisher: International Journal of Communication Systems
+  date: '2014-08-06'
+  link: https://doi.org/g9dm5z
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/GLOCOM.2015.7417591
+  title: Cloud-Based Optimal Energy Forecasting for Enabling Green Smart Grid Communication
+  authors:
+  - Samaresh Bera
+  - Tamoghna Ojha
+  - Sudip Misra
+  - Mohammad S. Obaidat
+  publisher: 2015 IEEE Global Communications Conference (GLOBECOM)
+  date: '2015-12-01'
+  link: https://doi.org/ggpw7z
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TPDS.2014.2315195
+  title: 'D2P: Distributed Dynamic Pricing Policyin Smart Grid for PHEVs Management'
+  authors:
+  - Sudip Misra
+  - Samaresh Bera
+  - Tamoghna Ojha
+  publisher: IEEE Transactions on Parallel and Distributed Systems
+  date: '2015-03-01'
+  link: https://doi.org/f63srq
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.JNCA.2015.05.008
+  title: 'ENTICE: Agent-based energy trading with incomplete information in the smart
+    grid'
+  authors:
+  - Sudip Misra
+  - Samaresh Bera
+  - Tamoghna Ojha
+  - Liang Zhou
+  publisher: Journal of Network and Computer Applications
+  date: '2015-09-01'
+  link: https://doi.org/g9dm53
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TMC.2014.2338293
+  title: Game-Theoretic Topology Controlfor Opportunistic Localization in Sparse Underwater
+    Sensor Networks
+  authors:
+  - Sudip Misra
+  - Tamoghna Ojha
+  - Ayan Mondal
+  publisher: IEEE Transactions on Mobile Computing
+  date: '2015-05-01'
+  link: https://doi.org/g9dm54
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.COMPAG.2015.08.011
+  title: 'Wireless sensor networks for agriculture: The state-of-the-art in practice
+    and future challenges'
+  authors:
+  - Tamoghna Ojha
+  - Sudip Misra
+  - Narendra Singh Raghuwanshi
+  publisher: Computers and Electronics in Agriculture
+  date: '2015-10-01'
+  link: https://doi.org/f7x7h4
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/CLOUDCOM.2014.169
+  title: Dynamic Duty Scheduling for Green Sensor-Cloud Applications
+  authors:
+  - Tamoghna Ojha
+  - Samaresh Bera
+  - Sudip Misra
+  - Narendra Singh Raghuwanshi
+  publisher: 2014 IEEE 6th International Conference on Cloud Computing Technology
+    and Science
+  date: '2014-12-01'
+  link: https://doi.org/g9dm55
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/NCC.2013.6488033
+  title: 'MobiL: A 3-dimensional localization scheme for Mobile Underwater Sensor
+    Networks'
+  authors:
+  - Tamoghna Ojha
+  - Sudip Misra
+  publisher: 2013 National Conference on Communications (NCC)
+  date: '2013-02-01'
+  link: https://doi.org/ghmnk4
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1049/IET-WSS.2012.0139
+  title: "Tic\u2010Tac\u2010Toe\u2010Arch: a self\u2010organising virtual architecture\
+    \ for Underwater Sensor Networks"
+  authors:
+  - Tamoghna Ojha
+  - Manas Khatua
+  - Sudip Misra
+  publisher: IET Wireless Sensor Systems
+  date: '2013-12-01'
+  link: https://doi.org/g9dm56
+  orcid: 0000-0001-5831-0632
+  plugin: orcid.py
+  file: orcid.yaml
 - id: 10.1109/OCIT65031.2024.00113
   title: An Off-Chip Based PUF for Robust Security in FPGA Based IoT Systems
   authors:
