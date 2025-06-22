@@ -3,11 +3,11 @@
 
 # About Us
 
-We are _Computing for Secure and Intelligent Networks (COSINE) Lab_, led by [Dr. Tamoghna Ojha](https://people.iitism.ac.in/~tamoghnaojha/) at the Department of Mathematics and Computing, IIT (ISM) Dhanbad. Our work is focused on exploiting "distributed intelligence" in IoT networks, especially with resource-constrained nodes, to facilitate energy-efficient and secure decisions on resource allocation and management. Our current focus is on applying AI/ML techniques in UAV-IoT networks, Edge computing, Non-terrestrial networks, digital twin, and edge-cloud-continuum. We have recently received a few research grants -- to develop **Low-resource AI Vision system for Mining** supported by TEXMiN Foundation (DST TIH) and a **special lab setup grant** from IIT (ISM) Dhanbad. 
+We are _Computing for Secure and Intelligent Networks (COSINE) Lab_, led by [Dr. Tamoghna Ojha](https://people.iitism.ac.in/~tamoghnaojha/) at the Department of Mathematics and Computing, IIT (ISM) Dhanbad. Our work is focused on exploiting "distributed intelligence" in future IoT networks, especially with resource-constrained nodes with challenging network dynamics, to facilitate energy-efficient and secure decisions on resource allocation and management. Our current focus is on applying AI/ML techniques in UAV-IoT networks, Edge computing, Non-terrestrial networks, digital twin, and edge-cloud-continuum. We have recently received a few research grants -- to develop **Low-resource AI Vision system for Mining** supported by TEXMiN Foundation (DST TIH), a **special lab setup grant**, and **Faculty Research Scheme grant** from IIT (ISM) Dhanbad. 
 
 
 <div style="border: 1px solid red; padding: 10px;">
-<b>We are recruiting:</b> PhD position available with me in the Department of Mathematics and Computing, IIT (ISM) Dhanbad. I am looking for self-motivated candidates interested working in areas such as AI/ML, UAV-IoT networks, Edge computing, Non-terrestrial networks, digital twin, and edge-cloud-continuum. Eligibility: M. Tech/M.Sc. in Mathematics & Computing / M.Tech. in Computer Science. More details: <a href="https://admission.iitism.ac.in/index.php/admission/phd/add_phd/home"> in this link</a>.
+<b>We are recruiting:</b> PhD position available at our lab in the Department of Mathematics and Computing, IIT (ISM) Dhanbad. We are looking for self-motivated candidates interested working in areas such as AI/ML, UAV-IoT networks, Edge computing, Non-terrestrial networks, digital twin, and edge-cloud-continuum. Interested candidates need to email with their latest CV to <a href="mailto:tamoghnaojha@iitism.ac.in">tamoghnaojha@iitism.ac.in</a>. Eligibility: M.Tech. in Computer Science or M.Tech/M.Sc. in Mathematics & Computing. More details: <a href="https://admission.iitism.ac.in/index.php/admission/phd/add_phd/home"> in this link</a>.
 </div>
 
 ## Our Sponsors and Collaborators
@@ -32,7 +32,7 @@ December 2024: ‘Scheduling in IEEE 802.15.4-DSME’ accepted in IEEE WCNC 2025
 November 2024: Received Special Lab Establishment grant of INR 29.97 Lakhs from IIT (ISM) Dhanbad. $
 November 2024: Our collaborative work on ‘IEEE 802.15.4-DSME’ accepted in IEEE ANTS 2024 workshop at IIT Guwahati. $
 October 2024: Amala’s (PhD student) work on ‘Off-chip Based PUF’ accepted in IEEE OCIT 2024. $
-September 2024: Joined IIT (ISM) Dhanbad as an Assistant Professor of Mathematics and Computing. $
+September 2024: Inception of COSINE lab: Dr. Ojha joined IIT (ISM) Dhanbad as an Assistant Professor of Mathematics and Computing. $
 {% endcapture %}
 
 {% assign news_items = raw_news | split: "$" %}
