@@ -11,7 +11,7 @@ We currently have a few M.Sc. and Integrated M. Tech thesis students working wit
 
 #### Openings
 
-We are looking for motivated and aspiring candidates for PhD positions. Candidates interested working in areas such as UAV-IoT networks, Edge computing, Non-terrestrial networks, digital twin, and edge-cloud-continuum need to _email me_ with a copy of their updated CV. For more information about the eligibility criteria, benefits, and fellowship of PhD program, you may visit the following links -- [PhD program](https://admission.iitism.ac.in/index.php/admission/phd).
+We are looking for motivated and aspiring candidates for PhD positions. Candidates interested working in areas such as UAV-IoT networks, Edge computing, Non-terrestrial networks, digital twin, and edge-cloud-continuum need to _email me_ with a copy of their updated CV. For more information about the eligibility criteria, benefits, and fellowship of PhD program, you may visit the following links -- [PhD program](https://www.iitism.ac.in/phdadmission).
 
 {% include section.html %}
 
