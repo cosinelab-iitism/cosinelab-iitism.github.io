@@ -28,7 +28,7 @@ We are looking for motivated and aspiring candidates for PhD positions. Candidat
 ### Intern and Visiting Students
 
 #### Summer 2025 Intern Students
-- Mr. Manjil Nepal. Topic: Federated Learning for Resource-constrained IoT
+- [Mr. Manjil Nepal](https://nepal-manjil32.github.io/). Topic: Federated Learning for Resource-constrained IoT
 - Mr. Saumyaditya Barman. Topic: Future IoT Networks
 - Ms. Jiya Debnath. Topic: TinyML models
 - Mr. Priyangshu Sahaji. Topic: Resource-constrained IoT Networks
