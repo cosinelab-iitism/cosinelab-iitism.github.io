@@ -1,0 +1,1 @@
+docker run --name lab-website-renderer --init --rm --interactive --tty --publish 4000:4000 --publish 35729:35729 --volume ".:/usr/src/app" lab-website-renderer:latest
