@@ -1,0 +1,183 @@
+/* Home.css */
+
+/* ------- About Section (from previous step) ------- */
+
+.home-page {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+/* About section two-column */
+
+.about-section {
+  padding: 2rem 0 3rem;
+}
+
+.about-container {
+  margin-bottom: 20px;
+}
+
+/* layout */
+.about-layout {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* left column */
+.about-content {
+  flex: 1 1 320px;
+  line-height: 1.7;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #0b1220;
+  position: relative;
+}
+
+.about-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0b1220;
+  margin-top: 6px;
+  border-radius: 5px;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+.about-text strong {
+  color: #0b1220;
+}
+
+/* right column */
+.about-image-wrapper {
+  flex: 1 1 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18);
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1.8rem 1.4rem;
+  }
+
+  .about-layout {
+    flex-direction: column-reverse; /* image on top on mobile (change if you want text first) */
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+
+  .about-text {
+    font-size: 0.98rem;
+  }
+}
+
+/* ------- Recruitment Section ------- */
+
+.recruit-section {
+  padding: 0 0 4rem;
+  /* background: #f8fafc; */
+}
+
+.recruit-container {
+  /* width: 85%;
+  max-width: 1100px;
+  margin: 0 auto; */
+  padding: 2rem 2.5rem;
+  border-radius: 14px;
+  border: 1px solid rgba(220, 38, 38, 0.25);
+  background: linear-gradient(
+    135deg,
+    rgba(248, 113, 113, 0.08),
+    rgba(239, 68, 68, 0.02)
+  );
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.recruit-tag-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.recruit-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 1.1rem;
+  border-radius: 999px;
+  background: #fee2e2;
+  color: #b91c1c;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.recruit-text {
+  margin: 0 0 0.9rem;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: #111827;
+  text-align: center;
+}
+
+.recruit-text strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.recruit-text a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+.recruit-text a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1.8rem 1.4rem;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+
+  .about-text {
+    font-size: 0.98rem;
+  }
+
+  .recruit-container {
+    padding: 1.7rem 1.3rem;
+  }
+
+  .recruit-text {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,130 @@
+.site-footer {
+  background: #0f1724; /* deep navy */
+  color: #e6eef8;
+  padding: 2.5rem 0 1.25rem;
+  margin-top: 2rem;
+}
+.site-footer .container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.mega-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-col h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.05rem;
+  text-align: left;
+}
+
+.footer-col p,
+.footer-col li,
+.footer-col a {
+  color: rgba(230, 238, 248, 0.85);
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.footer-col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 0.35rem 0;
+}
+
+.footer-col a {
+  color: rgba(230, 238, 248, 0.85);
+  text-decoration: none;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: start;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  transition: transform 150ms ease, background 150ms ease;
+}
+
+.social-icon svg {
+  fill: #ffffff;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px) scale(1.04);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.social-icon.facebook {
+  background: #1877f2;
+}
+.social-icon.linkedin {
+  background: #0a66c2;
+}
+.social-icon.github {
+  background: #24292e;
+}
+.social-icon.twitter {
+  background: #1da1f2;
+}
+
+.footer-bottom {
+  padding-top: 0.9rem;
+  display: flex;
+  justify-content: flex-start; /* left align */
+}
+
+.footer-logo {
+  max-width: 160px;
+  height: auto;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.footer-bottom small {
+  color: rgba(230, 238, 248, 0.65);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 880px) {
+  .mega-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .mega-grid {
+    grid-template-columns: 1fr;
+  }
+  .social-links {
+    gap: 0.5rem;
+  }
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+}

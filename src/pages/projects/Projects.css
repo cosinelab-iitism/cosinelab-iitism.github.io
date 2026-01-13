@@ -1,0 +1,154 @@
+.projects-page {
+  font-family: "Inter", sans-serif;
+  color: #222;
+}
+
+/* SECTION */
+.project-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.project-section.light {
+  background: #f6f7fb;
+  max-width: none;
+}
+
+.project-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Ensure consistent inner width for sections (keeps spacing same for .light) */
+.project-section .section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0; /* inner relies on outer padding */
+}
+
+/* GRID */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  position: relative; /* enabling absolute children */
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* IMAGE + OVERLAY */
+.project-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.85) 45%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon {
+  font-size: 34px;
+  color: #fff;
+}
+
+/* BODY */
+.project-body {
+  padding: 24px;
+  padding-bottom: 88px; /* create space for absolute button */
+}
+
+.project-body h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.project-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.project-funding {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+/* TAGS */
+.project-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.project-tags span {
+  background: #e5e7eb;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 12px;
+}
+
+/* ACTIONS (absolute at bottom of card) */
+.project-actions {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 10px; /* as requested */
+}
+
+.view-detail {
+  display: block;
+
+  padding: 12px 14px;
+  background: #0f172a;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 120ms ease, background 120ms ease;
+}
+
+.view-detail:hover {
+  transform: translateY(-2px);
+  background: #0b1523;
+}
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-section h2 {
+    font-size: 26px;
+  }
+}
