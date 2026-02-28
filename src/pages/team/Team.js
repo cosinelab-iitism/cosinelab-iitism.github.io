@@ -29,7 +29,7 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/",
   },
   {
-    name: "Rahul Sharma",
+    name: "Saurav Yadav",
     role: "UI/UX Designer",
     description:
       "Designs intuitive interfaces with a strong emphasis on usability and aesthetics.",
