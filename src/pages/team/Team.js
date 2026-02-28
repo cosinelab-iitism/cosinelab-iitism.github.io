@@ -16,7 +16,7 @@ const teamMembers = [
     role: "PhD Student",
     description:
       "Working on futuristic intelligent networks",
-    image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    image: arjab-de,
     linkedin: "https://www.linkedin.com/",
   },
   {
