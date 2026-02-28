@@ -37,7 +37,7 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/",
   },
   {
-    name: "Rahul Sharma",
+    name: "Rahul Manhotra",
     role: "UI/UX Designer",
     description:
       "Designs intuitive interfaces with a strong emphasis on usability and aesthetics.",
