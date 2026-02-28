@@ -4,18 +4,18 @@ import tamoghna from "../../images/tamoghna.jpg";
 
 const teamMembers = [
   {
-    name: "Tamoghna Ojha",
-    role: "Founder & Software Engineer",
+    name: "Dr. Tamoghna Ojha",
+    role: "Assistant Professor",
     description:
-      "Full-stack developer with a passion for building scalable web applications and modern user experiences.",
+      "",
     image: tamoghna,
-    linkedin: "https://www.linkedin.com/in/sauravkumaryadav/",
+    linkedin: "https://www.linkedin.com/in/tamoghnaojha/",
   },
   {
-    name: "Saurav",
-    role: "Android Developer",
+    name: "Arjab De",
+    role: "PhD Student",
     description:
-      "Android developer focused on crafting reliable, user-friendly mobile applications.",
+      "Working on futuristic intelligent networks",
     image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
     linkedin: "https://www.linkedin.com/",
   },
