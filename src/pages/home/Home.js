@@ -86,6 +86,7 @@ export default function Home() {
             . Eligibility: <strong>M.Tech. in Computer Science</strong> or{" "}
             <strong>M.Tech/M.Sc. in Mathematics &amp; Computing</strong>. More
             details:{" "}
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" target="_blank" rel="noreferrer">
               in this link
             </a>
