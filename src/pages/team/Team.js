@@ -1,7 +1,7 @@
 import React from "react";
 import "./Team.css";
 import tamoghna from "../../images/tamoghna.jpg";
-import arjab from "../../images/arjab-de.jpg";
+import arjab from "../../images/arjab.jpg";
 
 const teamMembers = [
   {
