@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.978a47f0.css",
-    "main.js": "/static/js/main.ade92f59.js",
+    "main.js": "/static/js/main.7b6a9cb4.js",
     "static/js/453.9d440475.chunk.js": "/static/js/453.9d440475.chunk.js",
     "static/media/cosine-bg.jpg": "/static/media/cosine-bg.7762792572fcb08551bd.jpg",
     "static/media/about-img.jpg": "/static/media/about-img.9353fb3f4d4575cb49bd.jpg",
@@ -9,14 +9,15 @@
     "static/media/iit-ism-logo.jpg": "/static/media/iit-ism-logo.bef1d2f965e28ee2bf53.jpg",
     "static/media/collab-institutes.jpg": "/static/media/collab-institutes.a479a2b9fecd963b9c61.jpg",
     "static/media/texmin-iitism.jpg": "/static/media/texmin-iitism.1cafb53a00eeaab38d9a.jpg",
+    "static/media/arjab.jpg": "/static/media/arjab.64f39e3d163b315e7e14.jpg",
     "static/media/logo.png": "/static/media/logo.b8a4812546a656fdc224.png",
     "index.html": "/index.html",
     "main.978a47f0.css.map": "/static/css/main.978a47f0.css.map",
-    "main.ade92f59.js.map": "/static/js/main.ade92f59.js.map",
+    "main.7b6a9cb4.js.map": "/static/js/main.7b6a9cb4.js.map",
     "453.9d440475.chunk.js.map": "/static/js/453.9d440475.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.978a47f0.css",
-    "static/js/main.ade92f59.js"
+    "static/js/main.7b6a9cb4.js"
   ]
 }
