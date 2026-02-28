@@ -9,7 +9,7 @@ const publicationsData = {
   journals: [
     {
       title:
-        "Secure and Energy-Efficient Resource Allocation in UAV-Assisted IoT Networks",
+        "Secure and Energy-Efficient Resource Allocation in UAV-Assisted IoT Networkss",
       description:
         "Distributed learning-based framework for secure and energy-efficient resource allocation in UAV-assisted IoT environments.",
       venue: "IEEE Internet of Things Journal, 2024",
