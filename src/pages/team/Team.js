@@ -16,33 +16,33 @@ const teamMembers = [
     name: "Arjab De",
     role: "PhD Student",
     description:
-      "Working on futuristic intelligent networks",
+      "Topic: Futuristic Intelligent Networks",
     image: arjab,
     linkedin: "https://www.linkedin.com/",
   },
   {
-    name: "Rahul Sharmas",
-    role: "UI/UX Designer",
+    name: "Kimsie Phan",
+    role: "MSc Student",
     description:
-      "Designs intuitive interfaces with a strong emphasis on usability and aesthetics.",
-    image: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7",
-    linkedin: "https://www.linkedin.com/",
+      "Topic: Federated Learning for Resource-constrained IoT",
+    image: kimsie,
+    linkedin: "https://kimsiephan.github.io",
   },
   {
-    name: "Saurav Yadav",
-    role: "UI/UX Designer",
+    name: "Scaria P Anil",
+    role: "MSc Student",
     description:
-      "Designs intuitive interfaces with a strong emphasis on usability and aesthetics.",
-    image: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7",
-    linkedin: "https://www.linkedin.com/",
+      "Topic: Semantic Communication and Resource Allocation",
+    image: scaria,
+    linkedin: "https://www.linkedin.com/in/scaria-p-anil-9649122b5/",
   },
   {
-    name: "Rahul Manhotra",
-    role: "UI/UX Designer",
+    name: "Tarun Kr Das",
+    role: "MTech Student",
     description:
-      "Designs intuitive interfaces with a strong emphasis on usability and aesthetics.",
-    image: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7",
-    linkedin: "https://www.linkedin.com/",
+      "Topic: Non-Terrestrial Networks",
+    image: tarun,
+    linkedin: "https://www.linkedin.com/in/tarun-kr-das-7b38432bb/",
   },
 ];
 
