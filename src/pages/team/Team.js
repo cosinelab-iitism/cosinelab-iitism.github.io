@@ -2,6 +2,9 @@ import React from "react";
 import "./Team.css";
 import tamoghna from "../../images/tamoghna.jpg";
 import arjab from "../../images/arjab.jpg";
+import tamoghna from "../../images/kimsie.jpg";
+import arjab from "../../images/scaria.jpg";
+import tamoghna from "../../images/tarun.jpg";
 
 const teamMembers = [
   {
