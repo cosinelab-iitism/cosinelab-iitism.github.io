@@ -47,7 +47,7 @@ const publicationsData = {
       venue: "IEEE ICC Workshops, 2024",
       tags: ["Digital Twin", "Edge Computing"],
       image: pubConfImg2,
-      link: "https://example.com/publication/digital-twin-edge-mining",
+      link: "https://example.com/publication/digital-twin-edge-minings",
     },
   ],
 
