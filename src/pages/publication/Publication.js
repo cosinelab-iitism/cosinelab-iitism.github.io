@@ -16,6 +16,17 @@ const publicationsData = {
       tags: ["UAV-IoT", "AI/ML", "Security"],
       image: pubJournalImg,
       link: "https://example.com/publication/secure-resource-allocation",
+      bibtexLink: "/bibtex/secure-resource-allocation.txt", // placeholder if needed
+    },
+    {
+      title:
+        "SecRET: Secure Range-Based Localization with Evidence Theory for Underwater Sensor Networks",
+      description: "A secure range-based localization scheme using evidence theory for underwater sensor networks.",
+      venue: "ACM Transactions on Autonomous and Adaptive Systems, 2020",
+      tags: ["Underwater", "Localization", "Security"],
+      image: pubJournalImg,
+         link: "https://example.com/publication/secure-resource-allocation",
+      bibtexLink: "/bibtex/misra2020.txt",
     },
   ],
 
@@ -51,14 +62,33 @@ const publicationsData = {
       link: "https://example.com/publication/secure-access-metaverse",
     },
   ],
+  books: [
+    {
+      title: "Secure Access Control in Metaverse-Enabled IoT Networks",
+      description:
+        "Lightweight access control mechanisms for secure metaverse-enabled IoT environments.",
+      venue: "IEEE MoCS Workshop, 2025",
+      tags: ["Metaverse", "IoT", "Security"],
+      image: pubWorkshopImg,
+      link: "https://example.com/publication/secure-access-metaverse",
+    },
+  ],
 };
 
 export default function Publication() {
-  const [activeTab, setActiveTab] = useState("journals");
+  const [activeTab, setActiveTab] = useState("all");
   const [activeTag, setActiveTag] = useState("All");
 
-  const publications = publicationsData[activeTab];
-  const allTags = ["All", ...new Set(publications.flatMap((p) => p.tags))];
+  // derive publications based on active tab; "all" combines every category
+  const publications =
+    activeTab === "all"
+      ? Object.values(publicationsData).flat()
+      : publicationsData[activeTab];
+
+  const allTags = [
+    "All",
+    ...new Set(publications.flatMap((p) => p.tags)),
+  ];
 
   const filtered =
     activeTag === "All"
@@ -70,7 +100,7 @@ export default function Publication() {
       <h1 className="publications-title">Our Publications</h1>
       {/* TABULAR TABS */}
       <div className="pub-tabular">
-        {["journals", "conferences", "Books/Patents/Others"].map((tab) => (
+        {["all", "journals", "conferences", "books"].map((tab) => (
           <button
             key={tab}
             className={activeTab === tab ? "active" : ""}
@@ -79,7 +109,11 @@ export default function Publication() {
               setActiveTag("All");
             }}
           >
-            {tab.toUpperCase()}
+            {tab === "all"
+              ? "ALL CATEGORIES"
+              : tab === "books"
+              ? "BOOKS/PATENTS/OTHERS"
+              : tab.toUpperCase()}
           </button>
         ))}
       </div>
@@ -133,10 +167,10 @@ export default function Publication() {
                   )}
                 </div>
                 <div className="pub-card-actions">
-                  {pub.link && (
+                  {(pub.bibtexLink || pub.link) && (
                     <a
                       className="read-more"
-                      href={pub.link}
+                      href={pub.bibtexLink || pub.link}
                       target="_blank"
                       rel="noopener noreferrer"
                     >

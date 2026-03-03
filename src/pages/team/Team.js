@@ -16,7 +16,7 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/tamoghnaojha/",
   },
   {
-    name: "Arjab Des",
+    name: "Arjab De",
     role: "PhD Student",
     description:
       "Topic: Futuristic Intelligent Networks",
