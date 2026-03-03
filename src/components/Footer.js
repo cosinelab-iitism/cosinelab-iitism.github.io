@@ -38,6 +38,9 @@ export default function Footer() {
               <a href="/research">Research</a>
             </li>
             <li>
+              <a href="/publications">Publications</a>
+            </li>
+            <li>
               <a href="/team">Team</a>
             </li>
           </ul>
@@ -46,9 +49,12 @@ export default function Footer() {
         <div className="footer-col contact">
           <h4>Contact</h4>
           <p>
-            Email: <a href="mailto:info@cosinelab.org">info@cosinelab.org</a>
+            Email: <a href="mailto:tamoghnaojha@iitism.ac.in">tamoghnaojha@iitism.ac.in</a>
           </p>
-          <p>Location: Example City, Country</p>
+          {/* <p>
+            Email: <a href="mailto:tamoghnaojha@iitism.ac.in">tamoghnaojha@iitism.ac.in</a>
+          </p> */}
+          <p>Location: IIT (ISM) Dhnabad</p>
         </div>
 
         <div className="footer-col social">
@@ -58,7 +64,7 @@ export default function Footer() {
             role="navigation"
             aria-label="social links"
           >
-            <a
+            {/* <a
               href={socialLinks.facebook}
               aria-label="Facebook"
               target="_blank"
@@ -74,7 +80,7 @@ export default function Footer() {
               >
                 <path d="M22 12.07C22 6.49 17.52 2 11.93 2 6.35 2 1.87 6.49 1.87 12.07 1.87 17.09 5.85 21.15 10.63 21.98v-7.02H8.27v-2.89h2.36V9.06c0-2.33 1.39-3.61 3.52-3.61 1.02 0 2.08.18 2.08.18v2.28h-1.17c-1.15 0-1.51.71-1.51 1.44v1.72h2.57l-.41 2.89h-2.16v7.02c4.78-.83 8.76-4.89 8.76-9.91z" />
               </svg>
-            </a>
+            </a> */}
 
             <a
               href={socialLinks.linkedin}
@@ -112,7 +118,7 @@ export default function Footer() {
               </svg>
             </a>
 
-            <a
+            {/* <a
               href={socialLinks.twitter}
               aria-label="Twitter"
               target="_blank"
@@ -128,7 +134,7 @@ export default function Footer() {
               >
                 <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.29 4.29 0 001.88-2.37 8.5 8.5 0 01-2.7 1.03 4.24 4.24 0 00-7.22 3.87A12.03 12.03 0 013 4.79a4.24 4.24 0 001.31 5.66c-.63-.02-1.23-.19-1.75-.48v.05c0 2.17 1.55 3.98 3.6 4.39-.38.1-.77.15-1.18.15-.29 0-.57-.03-.84-.08.57 1.78 2.23 3.08 4.19 3.12A8.52 8.52 0 012 19.54a12 12 0 006.29 1.84c7.55 0 11.69-6.26 11.69-11.69v-.53A8.36 8.36 0 0024 6.59c-.86.38-1.78.64-2.74.75z" />
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

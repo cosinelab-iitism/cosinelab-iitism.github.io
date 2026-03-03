@@ -25,9 +25,9 @@ export default function Navbar() {
   return (
     <nav className={`sticky-navbar ${showNavbar ? "visible" : ""}`}>
       <div className="navbar-container">
-        <div className="navbar-logo">
+        <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={logo} alt="COSINE Lab Logo" />
-        </div>
+        </NavLink>
 
         {/* Hamburger Menu Button */}
         <button

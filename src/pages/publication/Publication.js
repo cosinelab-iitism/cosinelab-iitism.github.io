@@ -135,12 +135,12 @@ export default function Publication() {
       <div className="pub-card-grid">
         {filtered.map((pub, index) => (
           <div className="pub-card" key={index}>
-            <div
+            {/* <div
               className="pub-card-image"
               style={{ backgroundImage: `url(${pub.image})` }}
             >
               <div className="pub-card-overlay"></div>
-            </div>
+            </div> */}
 
             <div className="pub-card-body">
               <h3>{pub.title}</h3>
