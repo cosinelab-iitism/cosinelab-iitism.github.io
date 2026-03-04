@@ -20,8 +20,7 @@ export default function Footer() {
             <img src={logo} alt="Cosine Lab Logo" className="footer-logo" />
           </a>
           <p>
-            Advancing research and collaboration in signal processing and
-            machine learning. Follow us for updates and open-source projects.
+            Computing for Secure and Intelligent Networks Lab.
           </p>
         </div>
 
@@ -32,9 +31,6 @@ export default function Footer() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/projects">Projects</a>
-            </li>
-            <li>
               <a href="/research">Research</a>
             </li>
             <li>
@@ -42,6 +38,9 @@ export default function Footer() {
             </li>
             <li>
               <a href="/team">Team</a>
+            </li>
+            <li>
+              <a href="/projects">Projects</a>
             </li>
           </ul>
         </div>
@@ -140,7 +139,7 @@ export default function Footer() {
       </div>
 
       <div className="container footer-bottom">
-        <small>© {year} Cosine Lab. All rights reserved.</small>
+        <small>© {year} COSINE Lab. All rights reserved.</small>
       </div>
     </footer>
   );

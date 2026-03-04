@@ -131,54 +131,41 @@ export default function Publication() {
         ))}
       </div>
 
-      {/* CARDS */}
-      <div className="pub-card-grid">
+      {/* LIST */}
+      <div className="pub-list">
         {filtered.map((pub, index) => (
-          <div className="pub-card" key={index}>
-            {/* <div
-              className="pub-card-image"
-              style={{ backgroundImage: `url(${pub.image})` }}
-            >
-              <div className="pub-card-overlay"></div>
-            </div> */}
+          <div className="pub-list-item" key={index}>
+            <h3>{pub.title}</h3>
+            <p className="pub-venue">{pub.venue}</p>
+            <p className="pub-desc">{pub.description}</p>
 
-            <div className="pub-card-body">
-              <h3>{pub.title}</h3>
-              <p className="pub-desc">{pub.description}</p>
-              <p className="pub-venue">{pub.venue}</p>
+            <div className="pub-card-tags">
+              {pub.tags.map((t) => (
+                <span key={t}>{t}</span>
+              ))}
+            </div>
 
-              <div className="pub-card-tags">
-                {pub.tags.map((t) => (
-                  <span key={t}>{t}</span>
-                ))}
-              </div>
-
-              <div className="action-btn-container">
-                <div className="pub-card-actions">
-                  {pub.link && (
-                    <a
-                      className="read-more"
-                      href={pub.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Read more
-                    </a>
-                  )}
-                </div>
-                <div className="pub-card-actions">
-                  {(pub.bibtexLink || pub.link) && (
-                    <a
-                      className="read-more"
-                      href={pub.bibtexLink || pub.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      BibTex
-                    </a>
-                  )}
-                </div>
-              </div>
+            <div className="action-btn-container">
+              {pub.link && (
+                <a
+                  className="read-more"
+                  href={pub.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read more
+                </a>
+              )}
+              {(pub.bibtexLink || pub.link) && (
+                <a
+                  className="read-more"
+                  href={pub.bibtexLink || pub.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  BibTex
+                </a>
+              )}
             </div>
           </div>
         ))}
