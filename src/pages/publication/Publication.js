@@ -1,106 +1,60 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Publication.css";
-import pubJournalImg from "../../images/texmin-iitism.jpg";
-import pubConfImg1 from "../../images/cosine-bg.jpg";
-import pubConfImg2 from "../../images/collab-institutes.jpg";
-import pubWorkshopImg from "../../images/about-img.jpg";
 
-const publicationsData = {
-  journals: [
-    {
-      title:
-        "Secure and Energy-Efficient Resource Allocation in UAV-Assisted IoT Networkss",
-      description:
-        "Distributed learning-based framework for secure and energy-efficient resource allocation in UAV-assisted IoT environments.",
-      venue: "IEEE Internet of Things Journal, 2024",
-      tags: ["UAV-IoT", "AI/ML", "Security"],
-      image: pubJournalImg,
-      link: "https://example.com/publication/secure-resource-allocation",
-      bibtexLink: "/bibtex/secure-resource-allocation.txt", // placeholder if needed
-    },
-    {
-      title:
-        "SecRET: Secure Range-Based Localization with Evidence Theory for Underwater Sensor Networks",
-      description: "A secure range-based localization scheme using evidence theory for underwater sensor networks.",
-      venue: "ACM Transactions on Autonomous and Adaptive Systems, 2020",
-      tags: ["Underwater", "Localization", "Security"],
-      image: pubJournalImg,
-         link: "https://example.com/publication/secure-resource-allocation",
-      bibtexLink: "/bibtex/misra2020.txt",
-    },
-  ],
+// fetch entries from JSON database and sort by year/month
+function sortEntries(entries) {
+  return [...entries].sort((a, b) => {
+    if (b.year !== a.year) return b.year - a.year;
+    return (b.month || 0) - (a.month || 0);
+  });
+}
 
-  conferences: [
-    {
-      title: "AI-Driven Secure Communication Framework for UAV-IoT Networks",
-      description:
-        "An AI-driven framework enabling secure and reliable communication in UAV-IoT systems.",
-      venue: "IEEE ISCC (MoCS Workshop), 2025",
-      tags: ["UAV-IoT", "Security"],
-      image: pubConfImg1,
-      link: "https://example.com/publication/ai-driven-secure-comm",
-    },
-    {
-      title: "Digital Twin Assisted Edge Intelligence for Smart Mining",
-      description:
-        "Digital twin-based edge intelligence framework for smart mining systems.",
-      venue: "IEEE ICC Workshops, 2024",
-      tags: ["Digital Twin", "Edge Computing"],
-      image: pubConfImg2,
-      link: "https://example.com/publication/digital-twin-edge-minings",
-    },
-  ],
-
-  workshops: [
-    {
-      title: "Secure Access Control in Metaverse-Enabled IoT Networks",
-      description:
-        "Lightweight access control mechanisms for secure metaverse-enabled IoT environments.",
-      venue: "IEEE MoCS Workshop, 2025",
-      tags: ["Metaverse", "IoT", "Security"],
-      image: pubWorkshopImg,
-      link: "https://example.com/publication/secure-access-metaverse",
-    },
-  ],
-  books: [
-    {
-      title: "Secure Access Control in Metaverse-Enabled IoT Networks",
-      description:
-        "Lightweight access control mechanisms for secure metaverse-enabled IoT environments.",
-      venue: "IEEE MoCS Workshop, 2025",
-      tags: ["Metaverse", "IoT", "Security"],
-      image: pubWorkshopImg,
-      link: "https://example.com/publication/secure-access-metaverse",
-    },
-  ],
-};
 
 export default function Publication() {
   const [activeTab, setActiveTab] = useState("all");
   const [activeTag, setActiveTag] = useState("All");
+  const [entries, setEntries] = useState([]);
 
-  // derive publications based on active tab; "all" combines every category
+  // load database when component mounts
+  useEffect(() => {
+    fetch("/bibtex/publications.json")
+      .then((res) => res.json())
+      .then((data) => setEntries(sortEntries(data)))
+      .catch((err) => console.error("Failed to load publications", err));
+  }, []);
+
+  // categorize based on type and current entries
+  const journals = entries.filter((e) => e.type === "journal");
+  const conferences = entries.filter((e) => e.type === "conference");
+  const others = entries.filter(
+    (e) => e.type !== "journal" && e.type !== "conference"
+  );
+
   const publications =
     activeTab === "all"
-      ? Object.values(publicationsData).flat()
-      : publicationsData[activeTab];
+      ? entries
+      : activeTab === "journals"
+      ? journals
+      : activeTab === "conferences"
+      ? conferences
+      : others;
 
   const allTags = [
     "All",
-    ...new Set(publications.flatMap((p) => p.tags)),
+    ...new Set(entries.flatMap((p) => p.tags || [])),
   ];
 
   const filtered =
     activeTag === "All"
       ? publications
-      : publications.filter((p) => p.tags.includes(activeTag));
+      : publications.filter((p) => (p.tags || []).includes(activeTag));
 
   return (
     <main className="publications-page">
       <h1 className="publications-title">Our Publications</h1>
       {/* TABULAR TABS */}
       <div className="pub-tabular">
-        {["all", "journals", "conferences", "books"].map((tab) => (
+        {["all", "journals", "conferences", "others"].map((tab) => (
           <button
             key={tab}
             className={activeTab === tab ? "active" : ""}
@@ -111,7 +65,7 @@ export default function Publication() {
           >
             {tab === "all"
               ? "ALL CATEGORIES"
-              : tab === "books"
+              : tab === "others"
               ? "BOOKS/PATENTS/OTHERS"
               : tab.toUpperCase()}
           </button>
@@ -132,44 +86,70 @@ export default function Publication() {
       </div>
 
       {/* LIST */}
-      <div className="pub-list">
-        {filtered.map((pub, index) => (
-          <div className="pub-list-item" key={index}>
-            <h3>{pub.title}</h3>
-            <p className="pub-venue">{pub.venue}</p>
-            <p className="pub-desc">{pub.description}</p>
+      <ol className="pub-list">
+        {filtered.map((pub, index) => {
+          // build IEEE-style citation
+          const monthNames = [
+            "", // placeholder for 1-based index
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+          ];
+          const monthStr = pub.month ? monthNames[pub.month] : null;
 
-            <div className="pub-card-tags">
-              {pub.tags.map((t) => (
-                <span key={t}>{t}</span>
-              ))}
-            </div>
+          const citationParts = [];
+          if (pub.authors) citationParts.push(pub.authors);
+          if (pub.title) citationParts.push(`"${pub.title}"`);
+          if (pub.venue) citationParts.push(<em key="venue">{pub.venue}</em>);
+          if (monthStr) citationParts.push(monthStr);
+          if (pub.year) citationParts.push(pub.year);
 
-            <div className="action-btn-container">
-              {pub.link && (
-                <a
-                  className="read-more"
-                  href={pub.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read more
-                </a>
-              )}
-              {(pub.bibtexLink || pub.link) && (
-                <a
-                  className="read-more"
-                  href={pub.bibtexLink || pub.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  BibTex
-                </a>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
+          return (
+            <li className="pub-list-item" key={index}>
+              <p className="pub-citation">
+                {citationParts.map((p, i) => (
+                  <span key={i}>
+                    {p}
+                    {i < citationParts.length - 1 ? ", " : ""}
+                  </span>
+                ))}
+              </p>
+
+              <div className="action-btn-container">
+                {pub.link && (
+                  <a
+                    className="pub-link"
+                    href={pub.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Link
+                  </a>
+                )}
+                {pub.bibtexLink && (
+                  <a
+                    className="pub-link"
+                    href={pub.bibtexLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    BibTex
+                  </a>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ol>
     </main>
   );
 }
