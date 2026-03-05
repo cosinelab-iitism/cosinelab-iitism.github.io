@@ -1,6 +1,6 @@
 import texmin from "../images/texmin-iitism.jpg";
 import cosineBg from "../images/cosine-bg.jpg";
-import aboutImg from "../images/about-img.jpg";
+import tihan from "../images/tihan-logo.png";
 import collab from "../images/collab-institutes.jpg";
 
 // Centralized project data with slugs for project detail routing
@@ -13,31 +13,42 @@ function slugify(str) {
 
 export const ongoingProjects = [
   {
-    title: "Low-resource AI Vision System for Mining",
+    title: "Improving The Performance of IEEE 802.11ah UAV Networks In Mission-Critical Defense Environments",
     description:
-      "Development of a low-resource AI-based vision system for smart mining environments, focusing on safety monitoring and automation under constrained edge resources.",
-    funding: "TEXMiN Foundation (DST TIH)",
-    tags: ["AI/ML", "Computer Vision", "Mining", "Edge Computing"],
-    image: texmin,
+      "Building a comprehensive framework for enhancing the performance of IEEE 802.11ah UAV networks in mission-critical defense environments.",
+    funding: "NMICPS TiHAN-IIT Hyderabad",
+    image: tihan,
   },
   {
-    title: "Secure Distributed Intelligence for UAV-IoT Networks",
+    title: "Revolutionizing Autonomous Navigation through Occlusion-Resilient Autonomous Driving Using Intelligent Perception Systems",
     description:
-      "Designing secure and energy-efficient distributed intelligence frameworks for UAV-assisted IoT networks in dynamic environments.",
-    funding: "IIT (ISM) Dhanbad",
-    tags: ["UAV-IoT", "Security", "Distributed Intelligence"],
+      "Developing occlusion-resilient autonomous driving algorithms using intelligent perception systems.",
+    funding: "IIT (ISM) Dhanbad (Special Collaborative Grant)",
     image: cosineBg,
+  },
+  {
+    title: "Energy-Efficient Federated Deep Reinforcement Learning for Multi-UAV Edge Intelligence Using Tiny Models",
+    description:
+      "Developing a FRL framework - algorithms and prototype - for multi-UAV edge intelligence.",
+    funding: "IIT (ISM) Dhanbad (Seed Grant / FRS)",
+    image: cosineBg,
+  },
+  {
+    title: "AI-Powered Vision Systems for Low-light and Low-visibility Underground Mining Environments",
+    description:
+      "Creating a low-resource AI vision system for underground mining, designed to operate in low-light and low-visibility conditions.",
+    funding: "TEXMiN Foundation (DST TIH)",
+    image: texmin,
   },
 ].map((p) => ({ ...p, slug: slugify(p.title) }));
 
 export const completedProjects = [
   {
-    title: "Special Laboratory Setup for Edge Intelligence",
+    title: "Special Lab Establishment grant",
     description:
-      "Establishment of a dedicated research laboratory for edge intelligence, networking, and AI experimentation.",
-    funding: "IIT (ISM) Dhanbad",
-    tags: ["Lab Infrastructure", "Edge Computing"],
-    image: aboutImg,
+      "Establishment of COSINE lab, a dedicated research laboratory for edge intelligence for future and secure networking.",
+    funding: "IIT (ISM) Dhanbad (Special Grant)",
+    image: cosineBg,
   },
 ].map((p) => ({ ...p, slug: slugify(p.title) }));
 
@@ -47,7 +58,6 @@ export const proposedProjects = [
     description:
       "Proposed research integrating digital twins with edge-cloud intelligence for predictive monitoring and optimization in smart mining systems.",
     funding: "Proposed / Under Review",
-    tags: ["Digital Twin", "Smart Mining", "Edge–Cloud"],
     image: collab,
   },
 ].map((p) => ({ ...p, slug: slugify(p.title) }));

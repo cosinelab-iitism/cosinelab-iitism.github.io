@@ -1,10 +1,8 @@
 import React from "react";
 import "./Projects.css";
-import { Link } from "react-router-dom";
 import {
   ongoingProjects,
   completedProjects,
-  proposedProjects,
 } from "../../data/projectsData";
 
 /* ===== COMPONENT ===== */
@@ -21,9 +19,6 @@ export default function Projects() {
         projects={completedProjects}
         light
       />
-
-      {/* PROPOSED */}
-      <ProjectSection title="Proposed Projects" projects={proposedProjects} />
     </main>
   );
 }
@@ -54,20 +49,12 @@ function ProjectSection({ title, projects, light }) {
                   <strong>Funding:</strong> {project.funding}
                 </p>
 
-                <div className="project-tags">
+                {/* <div className="project-tags">
                   {project.tags.map((tag, i) => (
                     <span key={i}>{tag}</span>
                   ))}
-                </div>
+                </div> */}
 
-                <div className="project-actions">
-                  <Link
-                    to={`/projects/${project.slug}`}
-                    className="view-detail"
-                  >
-                    View Detail
-                  </Link>
-                </div>
               </div>
             </div>
           ))}
