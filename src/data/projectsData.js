@@ -1,6 +1,7 @@
 import texmin from "../images/texmin-iitism.jpg";
 import cosineBg from "../images/cosine-bg.jpg";
 import tihan from "../images/tihan-logo.png";
+import jcsti from "../images/jcsti-logo.png";
 import collab from "../images/collab-institutes.jpg";
 
 // Centralized project data with slugs for project detail routing
@@ -12,6 +13,13 @@ function slugify(str) {
 }
 
 export const ongoingProjects = [
+  {
+    title: "Resilient Edge-LoRa System for Early Gas Hazard Detection in Coal Mines and Adjacent Communities",
+    description:
+      "Developing a resilient edge-LoRa system for early gas hazard detection in coal mines and adjacent communities, enhancing safety through real-time monitoring and alerting.",
+    funding: "Jharkhand Council on Science, Technology and Innovation (JCSTI)",
+    image: jcsti,
+  },
   {
     title: "Improving The Performance of IEEE 802.11ah UAV Networks In Mission-Critical Defense Environments",
     description:

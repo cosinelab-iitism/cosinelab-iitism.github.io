@@ -37,9 +37,7 @@ function ProjectSection({ title, projects, light }) {
               <div
                 className="project-image"
                 style={{ backgroundImage: `url(${project.image})` }}
-              >
-                <div className="project-overlay"></div>
-              </div>
+              ></div>
 
               <div className="project-body">
                 <h3>{project.title}</h3>
