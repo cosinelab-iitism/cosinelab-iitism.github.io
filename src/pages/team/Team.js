@@ -1,10 +1,12 @@
 import React from "react";
 import "./Team.css";
 import tamoghna from "../../images/tamoghna.jpg";
-import arjab from "../../images/arjab.jpg";
+import arjab1 from "../../images/arjab1.jpg";
 import kimsie from "../../images/kimsie.jpg";
 import scaria from "../../images/scaria.jpg";
 import tarun from "../../images/tarun.jpg";
+import subhadeep from "../../images/subhadeep.jpg";
+import debanshu from "../../images/debanshu.jpg";
 
 const teamMembers = [
   {
@@ -20,8 +22,8 @@ const teamMembers = [
     role: "PhD Student",
     description:
       "Topic: Futuristic Intelligent Networks",
-    image: arjab,
-    linkedin: "https://www.linkedin.com/",
+    image: arjab1,
+    linkedin: "https://www.linkedin.com/in/arjab-de-919559312/",
   },
   {
     name: "Kimsie Phan",
@@ -46,6 +48,22 @@ const teamMembers = [
       "Topic: Non-Terrestrial Networks",
     image: tarun,
     linkedin: "https://www.linkedin.com/in/tarun-kr-das-7b38432bb/",
+  },
+  {
+    name: "Subhadeep Nandi",
+    role: "MSc Student",
+    description:
+      "Topic: Intelligent Networks",
+    image: subhadeep,
+    linkedin: "https://www.linkedin.com/in/subhadeep-nandi-8140672a7/",
+  },
+  {
+    name: "Debanshu Jana",
+    role: "MSc Student",
+    description:
+      "Topic: Intelligent Networks",
+    image: debanshu,
+    linkedin: "https://www.linkedin.com/in/debanshu-jana-099a1336b/",
   },
 ];
 
