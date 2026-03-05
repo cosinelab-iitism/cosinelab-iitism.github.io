@@ -109,7 +109,11 @@ export default function Publication() {
           const citationParts = [];
           if (pub.authors) citationParts.push(pub.authors);
           if (pub.title) citationParts.push(`"${pub.title}"`);
-          if (pub.venue) citationParts.push(<em key="venue">{pub.venue}</em>);
+          if (pub.venue) citationParts.push(
+            <strong key="venue">
+              <em>{pub.venue}</em>
+            </strong>
+          );
           if (monthStr) citationParts.push(monthStr);
           if (pub.year) citationParts.push(pub.year);
 
@@ -122,6 +126,9 @@ export default function Publication() {
                     {i < citationParts.length - 1 ? ", " : ""}
                   </span>
                 ))}
+                {pub.note && pub.note.trim() !== "" && (
+                  <span className="pub-note"> ({pub.note})</span>
+                )}
               </p>
 
               <div className="action-btn-container">

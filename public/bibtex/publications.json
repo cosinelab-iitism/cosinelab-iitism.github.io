@@ -1,23 +1,123 @@
 [
   {
+    "authors": "T. Ojha, M. M. Hussain, S. Bera, N. Ahmed, S. Misra (eds.)",
+    "title": "Edge-enabled 6G Networking - Foundations, Technologies, and Applications",
+    "venue": "Springer Nature [ISBN: 978-3032190413]",
+    "month": 5,
+    "year": 2026,
+    "type": "journal",
+    "tags": ["Energy", "Security"],
+    "link": "https://www.amazon.in/Edge-enabled-Networking-Foundations-Technologies-Applications/dp/303219041X",
+    "note": ""
+  },
+  {
     "authors": "C. Amala, B. Subbarao, M. Sivaji, T. Ojha, B. B. Das, S. P. Mohanty, S. K. Ram",
     "title": "Everything You Wanted to Know about Secure Energy Harvesting Techniques for IoT Devices-A Review",
     "venue": "IEEE Sensors Journal",
     "month": 11,
     "year": 2025,
     "type": "journal",
-    "tags": ["Survey"],
-    "link": "https://example.com/publication/secure-resource-allocation",
-    "bibtexLink": "/bibtex/secure-resource-allocation.txt"
+    "tags": ["Energy", "Security"],
+    "link": "https://ieeexplore.ieee.org/document/11192196",
+    "note": ""
   },
   {
-    "authors": "A. Author, B. Author, C. Author",
+    "authors": "T. K. Das, T. Ojha, N. Choudhury, A. Kaushik, K. Gupta",
     "title": "QoS-aware Joint Optimization of Task Offloading and Resource Allocation in Integrated Terrestrial Non-Terrestrial Networks",
-    "venue": "IEEE ISCC (MoCS Workshop)",
+    "venue": "IEEE ANTS",
+    "month": 12,
+    "year": 2025,
+    "type": "conference",
+    "tags": ["NTN", "AI/ML", "Resource Allocation", "Energy"],
+    "link": "#",
+    "note": ""
+  },
+  {
+    "authors": "S. Anand, A. Gorrela, R. Rahman, N. Choudhury, A. Hazarika, D. Choudhury, T. Ojha",
+    "title": "Delay-Bounded Adaptive MAC for IEEE 802.15.4e DSME Networks: Enhancing Resilience under Bursty and Dynamic IoT Traffic",
+    "venue": "IEEE ANTS",
+    "month": 12,
+    "year": 2025,
+    "type": "conference",
+    "tags": ["LPWAN", "AI/ML", "Resource Allocation", "Energy"],
+    "link": "#",
+    "note": ""
+  },
+  {
+    "authors": "M. Vaiyata, T. Ojha, N. Choudhury, J. Dave, P. Lorenz",
+    "title": "Distributed RL-Based UAV Selection for Reliable Task Execution in Aerial IoT Edge Networks",
+    "venue": "IEEE GLOBECOM Workshops",
+    "month": 12,
+    "year": 2025,
+    "type": "conference",
+    "tags": ["NTN", "AI/ML", "Resource Allocation", "Energy"],
+    "link": "#",
+    "note": ""
+  },
+  {
+    "authors": "R. Rahman, N. Choudhury, W. Xiang and T. Ojha",
+    "title": "FlexiFrame: Adaptive Slotframe Scheduling for 6TiSCH-Based Smart City IoT Networks",
+    "venue": "IEEE GLOBECOM Workshops",
+    "month": 12,
+    "year": 2025,
+    "type": "conference",
+    "tags": ["LPWAN", "AI/ML", "Resource Allocation"],
+    "link": "#",
+    "note": ""
+  },
+  {
+    "authors": "N. Roshni, S. Prabhugari, R. Soni, A. S. Manish Reddy, A. Soni, J. Dave and T. Ojha",
+    "title": "SDN Security Enhancement through Machine Learning based Packet Detection and Rate-Limiting",
+    "venue": "IEEE INDISCON",
+    "month": 8,
+    "year": 2025,
+    "type": "conference",
+    "tags": ["AI/ML", "Security"],
+    "link": "https://ieeexplore.ieee.org/document/11254914",
+    "note": ""
+  },
+  {
+    "authors": "S. Ravikanti, J. Dave, H. Dong, I. Gondal, N. Choudhury, T. Ojha, T. P. Raptis",
+    "title": "Avatar-Centric Gait Authentication Framework for Secure Metaverse",
+    "venue": "IEEE 15th Workshop on Management of Cloud and Smart City Systems (with IEEE ISCC 2025)",
     "month": 7,
     "year": 2025,
     "type": "conference",
-    "tags": ["UAV-IoT", "Security"],
-    "link": "https://example.com/publication/ai-driven-secure-comm"
+    "tags": ["Metaverse", "Security"],
+    "link": "https://www.computer.org/csdl/proceedings-article/iscc/2025/11326103/2df96Jey9I4",
+    "note": ""
+  },
+  {
+    "authors": "S. Reddy, N. Choudhury, A. Hazarika and T. Ojha",
+    "title": "DyHSARW: A Dynamic GTS Scheduling Mechanism for Large IEEE 802.15.4 DSME-Based IoT Networks",
+    "venue": "IEEE WCNC",
+    "month": 3,
+    "year": 2025,
+    "type": "conference",
+    "tags": ["LPWAN", "Resource Allocation"],
+    "link": "https://ieeexplore.ieee.org/document/10978176",
+    "note": ""
+  },
+  {
+    "authors": "S. Anand, N. Choudhury, T. Ojha, A. Hazarika, J. Dave",
+    "title": "Improving Network Efficiency in Clustered Tree Topology through PSO Optimization in IEEE 802.15.4-DSME based IoT Networks",
+    "venue": "IEEE ANTS",
+    "month": 12,
+    "year": 2024,
+    "type": "conference",
+    "tags": ["LPWAN", "Resource Allocation"],
+    "link": "https://ieeexplore.ieee.org/document/10898488",
+    "note": ""
+  },
+  {
+    "authors": "C. Amala, B. Subbarao, T Ojha, B. B. Das. S. K. Ram, and S. P. Mohanty",
+    "title": "An Off-chip Based PUF for Robust Security in FPGA Based IoT Systems",
+    "venue": "22nd IEEE/OITS International Conference on Information Technology",
+    "month": 12,
+    "year": 2024,
+    "type": "conference",
+    "tags": ["Energy", "Security"],
+    "link": "https://ieeexplore.ieee.org/document/10973683",
+    "note": "Best Paper Award"
   }
 ]
