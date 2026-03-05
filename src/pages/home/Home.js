@@ -87,7 +87,7 @@ export default function Home() {
             <strong>M.Tech/M.Sc. in Mathematics &amp; Computing</strong>. More
             details:{" "}
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://www.iitism.ac.in/phdadmission" target="_blank" rel="noreferrer">
               in this link
             </a>
             .
