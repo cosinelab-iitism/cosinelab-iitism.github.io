@@ -23,6 +23,10 @@
   gap: 30px;
 }
 
+/* map card should span two columns */
+.map-card {
+  grid-column: span 2;
+}
 .contact-card {
   background: #fff;
   padding: 32px;

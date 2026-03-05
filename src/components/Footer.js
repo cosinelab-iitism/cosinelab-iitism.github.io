@@ -47,13 +47,16 @@ export default function Footer() {
 
         <div className="footer-col contact">
           <h4>Contact</h4>
-          <p>
-            Email: <a href="mailto:tamoghnaojha@iitism.ac.in">tamoghnaojha@iitism.ac.in</a>
-          </p>
           {/* <p>
             Email: <a href="mailto:tamoghnaojha@iitism.ac.in">tamoghnaojha@iitism.ac.in</a>
           </p> */}
-          <p>Location: IIT (ISM) Dhnabad</p>
+          <p> COSINE Lab <br />
+              Department of Mathematics and Computing <br />
+              GJLT Building, 1st floor <br />
+              IIT (ISM) Dhanbad, Jharkhand, India</p>
+          <p>
+            Email: <a href="mailto:tamoghnaojha@iitism.ac.in">tamoghnaojha@iitism.ac.in</a>
+          </p>
         </div>
 
         <div className="footer-col social">

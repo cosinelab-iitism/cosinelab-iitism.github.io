@@ -3,7 +3,6 @@ import "./NewsTicker.css";
 
 const newsItems = [
   "May 2025: Received Faculty Research Scheme grant of INR 19.99 Lakhs from IIT (ISM) Dhanbad.",
-  "April 2025: Congratulations to Shubham for being selected for ISRO internship.",
   "April 2025: Paper accepted at IEEE ISCC 2025 (MoCS Workshop), Bologna, Italy.",
   "April 2025: Serving as TPC member for IEEE LCN 2025.",
   "March 2025: Received research grant from TEXMiN Foundation (DST TIH).",

@@ -50,6 +50,14 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/tarun-kr-das-7b38432bb/",
   },
   {
+    name: "Pintu Shaw",
+    role: "MTech Student",
+    description:
+      "Topic: Intelligent Networks",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhuTdLL3qV-93rNnSS-4R2vVPcdVyKOJ6KA&s",
+    linkedin: "#",
+  },
+  {
     name: "Subhadeep Nandi",
     role: "MSc Student",
     description:
