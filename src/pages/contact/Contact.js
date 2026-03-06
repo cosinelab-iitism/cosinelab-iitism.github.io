@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import tamoghna from "../../images/tamoghna.jpg";
 
 export default function Contact() {
   return (
