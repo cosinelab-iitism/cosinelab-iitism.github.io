@@ -37,7 +37,7 @@ export default function Home() {
                 Our current research explores the application of{" "}
                 <strong>AI/ML</strong> in <strong>UAV-IoT networks</strong>,{" "}
                 <strong>Edge Computing</strong>,{" "}
-                <strong>Non-terrestrial Networks</strong>,{" "}
+                <strong>Non-terrestrial Networks (NTNs)</strong>,{" "}
                 <strong>Digital Twin</strong>, and the{" "}
                 <strong>Edge-Cloud Continuum</strong>.
               </p>

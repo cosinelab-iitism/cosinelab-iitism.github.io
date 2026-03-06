@@ -3,6 +3,7 @@
   max-width: 1200px;
   margin: auto;
   padding: 70px 40px;
+  background: #ffffff;
 }
 
 .research-section.light {
@@ -17,6 +18,8 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  background: #fafbfc;
+  border-radius: 8px;
 }
 
 .overview-content {
@@ -39,10 +42,65 @@
   flex: 1;
 }
 
-.overview-image img {
+.slideshow-container {
+  position: relative;
   width: 100%;
   border-radius: 16px;
+  overflow: hidden;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.slideshow-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slide-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px 16px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.slide-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.slide-button.prev {
+  left: 10px;
+}
+
+.slide-button.next {
+  right: 10px;
+}
+
+.slide-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 0;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ddd;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.indicator.active {
+  background: #333;
 }
 
 .research-section h2 {
