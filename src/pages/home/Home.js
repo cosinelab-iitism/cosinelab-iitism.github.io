@@ -2,7 +2,7 @@
 import React from "react";
 import "./Home.css";
 import Sponsors from "../../components/Sponsors";
-import aboutImg from "../../images/about-img.jpg";
+import researchareas from "../../images/research-areas.jpg";
 import NewsTicker from "../../components/NewsTicker";
 
 export default function Home() {
@@ -54,7 +54,7 @@ export default function Home() {
 
             {/* Right column – image */}
             <div className="about-image-wrapper">
-              <img src={aboutImg} alt="COSINE Lab" className="about-image" />
+              <img src={researchareas} alt="COSINE Lab" className="about-image" />
             </div>
           </div>
         </div>

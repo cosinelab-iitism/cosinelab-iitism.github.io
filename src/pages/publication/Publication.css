@@ -135,19 +135,72 @@
   font-weight: 600;
 }
 
-.pub-link {
-  display: inline-block;
-  padding: 4px 8px;
-  background: #0f172a;
-  color: #fff;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 13px;
-  margin-right: 8px;
-  transition: background 120ms ease;
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .publications-page {
+    padding: 40px 20px;
+  }
+
+  .publications-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .pub-tabular {
+    grid-template-columns: 1fr;
+    gap: 1px;
+  }
+
+  .pub-tabular button {
+    padding: 12px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .pub-tabular button:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .pub-tags {
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+
+  .pub-tag {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+
+  .pub-list-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .action-btn-container {
+    margin-left: 0;
+    margin-top: 8px;
+  }
 }
 
-.pub-link:hover {
-  background: #0b1523;
+@media (max-width: 480px) {
+  .publications-page {
+    padding: 30px 15px;
+  }
+
+  .pub-tabular button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .pub-tags {
+    gap: 6px;
+  }
+
+  .pub-tag {
+    padding: 4px 10px;
+    font-size: 11px;
+  }
 }
 
