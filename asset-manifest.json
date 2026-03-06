@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.369f2b8d.css",
-    "main.js": "/static/js/main.077121e0.js",
+    "main.css": "/static/css/main.fdfdd6bb.css",
+    "main.js": "/static/js/main.2225b78f.js",
     "static/js/453.9d440475.chunk.js": "/static/js/453.9d440475.chunk.js",
     "static/media/cosine-bg.jpg": "/static/media/cosine-bg.7762792572fcb08551bd.jpg",
     "static/media/about-img.jpg": "/static/media/about-img.9353fb3f4d4575cb49bd.jpg",
     "static/media/tamoghna.jpg": "/static/media/tamoghna.dcd54986953745677c76.jpg",
     "static/media/iit-ism-logo.jpg": "/static/media/iit-ism-logo.bef1d2f965e28ee2bf53.jpg",
     "static/media/kimsie.jpg": "/static/media/kimsie.539a971b0c294747140e.jpg",
+    "static/media/pintu.jpg": "/static/media/pintu.b49564cd82d69f4efb57.jpg",
     "static/media/arjab1.jpg": "/static/media/arjab1.ef4ba98de588b67a8e79.jpg",
     "static/media/collab-institutes.jpg": "/static/media/collab-institutes.a479a2b9fecd963b9c61.jpg",
+    "static/media/tihan-logo.png": "/static/media/tihan-logo.6271e7fdaa949169cfb8.png",
     "static/media/subhadeep.jpg": "/static/media/subhadeep.b2345cf5599db3cd6dcc.jpg",
     "static/media/texmin-iitism.jpg": "/static/media/texmin-iitism.1cafb53a00eeaab38d9a.jpg",
     "static/media/scaria.jpg": "/static/media/scaria.42a119525b3517daada9.jpg",
     "static/media/tarun.jpg": "/static/media/tarun.66089c3bb1933f3a8552.jpg",
     "static/media/debanshu.jpg": "/static/media/debanshu.6dbde79a548c0d7d5ac8.jpg",
+    "static/media/jcsti-logo.png": "/static/media/jcsti-logo.5704fa05f53fa952690c.png",
     "static/media/logo.png": "/static/media/logo.b8a4812546a656fdc224.png",
     "index.html": "/index.html",
-    "main.369f2b8d.css.map": "/static/css/main.369f2b8d.css.map",
-    "main.077121e0.js.map": "/static/js/main.077121e0.js.map",
+    "main.fdfdd6bb.css.map": "/static/css/main.fdfdd6bb.css.map",
+    "main.2225b78f.js.map": "/static/js/main.2225b78f.js.map",
     "453.9d440475.chunk.js.map": "/static/js/453.9d440475.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.369f2b8d.css",
-    "static/js/main.077121e0.js"
+    "static/css/main.fdfdd6bb.css",
+    "static/js/main.2225b78f.js"
   ]
 }
