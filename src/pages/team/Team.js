@@ -5,6 +5,7 @@ import arjab1 from "../../images/arjab1.jpg";
 import kimsie from "../../images/kimsie.jpg";
 import scaria from "../../images/scaria.jpg";
 import tarun from "../../images/tarun.jpg";
+import pintu from "../../images/pintu.jpg";
 import subhadeep from "../../images/subhadeep.jpg";
 import debanshu from "../../images/debanshu.jpg";
 
@@ -54,8 +55,8 @@ const teamMembers = [
     role: "MTech Student",
     description:
       "Topic: Intelligent Networks",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhuTdLL3qV-93rNnSS-4R2vVPcdVyKOJ6KA&s",
-    linkedin: "#",
+    image: pintu,
+    linkedin: "http://www.linkedin.com/in/pintu-shaw-641a50308",
   },
   {
     name: "Subhadeep Nandi",
@@ -110,6 +111,23 @@ export default function Team() {
           </div>
         ))}
       </div>
+
+      {/* Previous members section with interns list */}
+      <section className="previous-members">
+        <h2 className="previous-members-title">Previous Members</h2>
+        <div className="interns">
+          <h3>Summer Interns - 2025</h3>
+          <ul>
+            <li>Mr. Manjil Nepal. Topic: Federated Learning for Resource-constrained IoT</li>
+            <li>Ms. Jiya Debnath. Topic: TinyML models</li>
+            <li>Mr. Priyangshu Sahaji. Topic: Resource-constrained IoT Networks</li>
+          </ul>
+          <h3>ACM Anveshan Setu Visiting PhD Student - Summer 2025</h3>
+          <ul>
+            <li>Ms. Arshee Naz (NIT Delhi). Topic: AI/ML-based Communication Protocol for Non-Terrestrial Networks</li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }

@@ -91,6 +91,25 @@
   margin-bottom: 20px;
 }
 
+/* Previous members section */
+.previous-members {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  /* removed horizontal padding so content lines up with grid cards */
+  text-align: left;
+}
+
+.previous-members .interns h3 {
+  margin-bottom: 8px;
+}
+
+.previous-members .interns ul {
+  /* align bullets with card body content */
+  padding-left: 16px; /* smaller indent to reduce gap */
+  margin-top: 0;
+  list-style-position: inside; /* keep marker closer to text */
+}
+
 /* Button */
 .profile-btn {
   display: inline-block;
