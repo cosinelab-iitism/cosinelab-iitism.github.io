@@ -72,13 +72,24 @@
 .pub-list {
   padding: 0;
   margin: 0;
-  list-style-position: inside;
+  list-style: none; /* remove default bullets */
   counter-reset: pub;
 }
 
 .pub-list-item {
+  counter-increment: pub;
   padding: 8px 0;
   border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: flex-start; /* align to top if multi-line */
+  justify-content: flex-start; /* left-align all content */
+}
+
+.pub-list-item::before {
+  content: counter(pub) ". ";
+  font-weight: bold;
+  margin-right: 8px;
+  flex-shrink: 0; /* prevent shrinking */
 }
 
 .pub-list-item:last-child {
@@ -88,7 +99,8 @@
 /* ensure buttons stay inline, no extra margin */
 .action-btn-container {
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 0;
+  margin-left: 16px;
 }
 
 .pub-link {
@@ -110,7 +122,8 @@
 .pub-citation {
   font-size: 15px;
   line-height: 1.4;
-  margin: 0 0 8px 0;
+  margin: 0;
+  flex: 1;
 }
 
 .pub-citation em {
