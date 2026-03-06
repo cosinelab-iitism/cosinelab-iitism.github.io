@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9d93785.css",
-    "main.js": "/static/js/main.d6d568f4.js",
+    "main.css": "/static/css/main.7744c130.css",
+    "main.js": "/static/js/main.4dfaa79a.js",
     "static/js/453.9d440475.chunk.js": "/static/js/453.9d440475.chunk.js",
     "static/media/cosine-bg.jpg": "/static/media/cosine-bg.7762792572fcb08551bd.jpg",
-    "static/media/about-img.jpg": "/static/media/about-img.9353fb3f4d4575cb49bd.jpg",
     "static/media/tamoghna.jpg": "/static/media/tamoghna.dcd54986953745677c76.jpg",
     "static/media/iit-ism-logo.jpg": "/static/media/iit-ism-logo.bef1d2f965e28ee2bf53.jpg",
     "static/media/research2.png": "/static/media/research2.d6fb79184fec34d34ff7.png",
@@ -17,6 +16,7 @@
     "static/media/collab-institutes.jpg": "/static/media/collab-institutes.a479a2b9fecd963b9c61.jpg",
     "static/media/tihan-logo.png": "/static/media/tihan-logo.6271e7fdaa949169cfb8.png",
     "static/media/subhadeep.jpg": "/static/media/subhadeep.b2345cf5599db3cd6dcc.jpg",
+    "static/media/research-areas.jpg": "/static/media/research-areas.f8d413c4deae7848c4c6.jpg",
     "static/media/texmin-iitism.jpg": "/static/media/texmin-iitism.1cafb53a00eeaab38d9a.jpg",
     "static/media/scaria.jpg": "/static/media/scaria.42a119525b3517daada9.jpg",
     "static/media/tarun.jpg": "/static/media/tarun.66089c3bb1933f3a8552.jpg",
@@ -24,12 +24,12 @@
     "static/media/jcsti-logo.png": "/static/media/jcsti-logo.5704fa05f53fa952690c.png",
     "static/media/logo.png": "/static/media/logo.b8a4812546a656fdc224.png",
     "index.html": "/index.html",
-    "main.b9d93785.css.map": "/static/css/main.b9d93785.css.map",
-    "main.d6d568f4.js.map": "/static/js/main.d6d568f4.js.map",
+    "main.7744c130.css.map": "/static/css/main.7744c130.css.map",
+    "main.4dfaa79a.js.map": "/static/js/main.4dfaa79a.js.map",
     "453.9d440475.chunk.js.map": "/static/js/453.9d440475.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9d93785.css",
-    "static/js/main.d6d568f4.js"
+    "static/css/main.7744c130.css",
+    "static/js/main.4dfaa79a.js"
   ]
 }
