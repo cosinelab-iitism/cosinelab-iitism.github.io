@@ -10,6 +10,28 @@
     "link": "https://www.amazon.in/Edge-enabled-Networking-Foundations-Technologies-Applications/dp/303219041X",
     "note": ""
   },
+   {
+    "authors": "T. K. Das, T. Ojha, N. Choudhury, A. Kaushik",
+    "title": "A Hybrid FL-MARL Framework for Optimal Trajectory Control and Resource Allocation in Integrated Terrestrial and Non-Terrestrial Networks",
+    "venue": "IEEE ICC Workshops",
+    "month": 5,
+    "year": 2026,
+    "type": "conference",
+    "tags": ["NTN", "AI/ML", "Resource Allocation", "Energy"],
+    "link": "#",
+    "note": ""
+  },
+  {
+    "authors": "A. Gorrela, S. V. Gudipudi, N. Choudhury, A. Hazarika, T. Ojha, A. Jindal",
+    "title": "Frame-Aware Resilient ADR for Relay-Connected LoRaWAN IoT Networks",
+    "venue": "IEEE ICC Workshops",
+    "month": 5,
+    "year": 2026,
+    "type": "conference",
+    "tags": ["LPWAN", "AI/ML", "Resource Allocation", "Energy"],
+    "link": "#",
+    "note": ""
+  },
   {
     "authors": "C. Amala, B. Subbarao, M. Sivaji, T. Ojha, B. B. Das, S. P. Mohanty, S. K. Ram",
     "title": "Everything You Wanted to Know about Secure Energy Harvesting Techniques for IoT Devices-A Review",
