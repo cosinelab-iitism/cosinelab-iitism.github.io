@@ -30,7 +30,9 @@ export default function Sponsors() {
           </p>
           <p className="sponsors-text">
             From core funding for our lab infrastructure to project-based grants
-            in areas such as AI/ML, UAV-IoT, and edge-cloud systems, our
+            in areas such as gas hazard detection in coal mines, UAV network
+            performance, autonomous navigation, federated deep reinforcement
+            learning, and AI-powered vision systems for mining, our
             collaborators play a key role in shaping the future of secure and
             intelligent networks.
           </p>
