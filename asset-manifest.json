@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31eaefcf.css",
-    "main.js": "/static/js/main.b94bdb3e.js",
+    "main.js": "/static/js/main.8ce560b6.js",
     "static/js/453.9d440475.chunk.js": "/static/js/453.9d440475.chunk.js",
     "static/media/cosine-bg.jpg": "/static/media/cosine-bg.7762792572fcb08551bd.jpg",
     "static/media/tamoghna.jpg": "/static/media/tamoghna.dcd54986953745677c76.jpg",
@@ -25,11 +25,11 @@
     "static/media/logo.png": "/static/media/logo.b8a4812546a656fdc224.png",
     "index.html": "/index.html",
     "main.31eaefcf.css.map": "/static/css/main.31eaefcf.css.map",
-    "main.b94bdb3e.js.map": "/static/js/main.b94bdb3e.js.map",
+    "main.8ce560b6.js.map": "/static/js/main.8ce560b6.js.map",
     "453.9d440475.chunk.js.map": "/static/js/453.9d440475.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31eaefcf.css",
-    "static/js/main.b94bdb3e.js"
+    "static/js/main.8ce560b6.js"
   ]
 }
