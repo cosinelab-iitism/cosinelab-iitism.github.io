@@ -54,10 +54,10 @@ export default function Sponsors() {
                 ))}
               </div>
             </div>
-            <p className="slider-caption">
+            {/* <p className="slider-caption">
               Logos scroll automatically showcasing our key sponsors and partner
               institutes.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
