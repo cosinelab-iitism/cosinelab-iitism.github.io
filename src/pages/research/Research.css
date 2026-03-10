@@ -242,6 +242,17 @@
   font-size: 34px;
 }
 
+.domain-card h3 {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.domain-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
 /* STATS */
 .stats-grid {
   display: grid;

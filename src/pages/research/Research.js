@@ -31,19 +31,13 @@ export default function Research() {
         <div className="overview-content">
           <h2>Research Overview</h2>
           <p>
-            The{" "}
-            <strong>
-              Computing for Secure and Intelligent Networks (COSINE) Lab
-            </strong>
-            , led by <strong>Dr. Tamoghna Ojha</strong> at IIT (ISM) Dhanbad,
-            focuses on exploiting <strong>distributed intelligence</strong> for
-            next-generation IoT systems.
+            We focus on integrating <strong>AI/ML with distributed intelligence</strong> for
+            next-generation IoT, UAV, and edge-cloud systems, enabling real-time decision-making in challenging environments.
           </p>
           <p>
             Our research targets{" "}
-            <strong>energy-efficient, secure, and scalable intelligence</strong>
-            in resource-constrained and dynamically changing network
-            environments.
+            <strong>energy-efficient, secure, and scalable AI-driven intelligence</strong>
+            {" "}in resource-constrained settings such as underground mining, mission-critical defense, and autonomous navigation.
           </p>
         </div>
 
@@ -78,7 +72,7 @@ export default function Research() {
 
         <div className="domain-grid">
           <div className="domain-card">
-            <span>🚁</span>
+            <span>🛩️</span>
             <h3>UAV-IoT Networks</h3>
             <p>Autonomous aerial networking under constraints</p>
           </div>
@@ -86,7 +80,7 @@ export default function Research() {
           <div className="domain-card">
             <span>⚡</span>
             <h3>Edge Computing</h3>
-            <p>Low-latency distributed intelligence</p>
+            <p>Low-latency distributed intelligence using FL and RL</p>
           </div>
 
           <div className="domain-card">
@@ -98,19 +92,19 @@ export default function Research() {
           <div className="domain-card">
             <span>🧩</span>
             <h3>Digital Twins</h3>
-            <p>Virtual replicas for prediction & control</p>
-          </div>
-
-          <div className="domain-card">
-            <span>🔒</span>
-            <h3>Secure Networking</h3>
-            <p>Trust, privacy, and resilience</p>
+            <p>Virtual & resource optimized replicas for prediction & control</p>
           </div>
 
           <div className="domain-card">
             <span>🌐</span>
             <h3>Edge–Cloud Continuum</h3>
             <p>Seamless compute orchestration</p>
+          </div>
+
+          <div className="domain-card">
+            <span>🔮</span>
+            <h3>Secure Metaverse</h3>
+            <p>Trust, privacy, and immersive virtual environments</p>
           </div>
         </div>
       </section>
