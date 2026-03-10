@@ -44,7 +44,7 @@ function ProjectSection({ title, projects, light }) {
                 <p className="project-desc">{project.description}</p>
 
                 <p className="project-funding">
-                  <strong>Funding:</strong> {project.funding}
+                  <strong>Sponsor:</strong> {project.sponsor}
                 </p>
 
                 {/* <div className="project-tags">

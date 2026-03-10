@@ -39,7 +39,7 @@ export default function ProjectDetail() {
 
           <div className="detail-meta">
             <p>
-              <strong>Funding Agency:</strong> {project.funding}
+              <strong>Sponsor:</strong> {project.sponsor}
             </p>
             {project.duration && (
               <p>
