@@ -38,8 +38,11 @@ export default function Home() {
                 <strong>AI/ML</strong> in <strong>UAV-IoT networks</strong>,{" "}
                 <strong>Edge Computing</strong>,{" "}
                 <strong>Non-terrestrial Networks (NTNs)</strong>,{" "}
-                <strong>Digital Twin</strong>, and the{" "}
-                <strong>Metaverse</strong>.
+                <strong>Digital Twin</strong>, {" "}
+                <strong>secure metaverse</strong>, and{" "}
+                <strong>edge-cloud-continuum</strong>.  We are particularly interested in developing novel algorithms and 
+                architectures for energy-efficient, secure, and scalable AI-driven intelligence in resource-constrained 
+                and challengingsettings such as underground mining, mission-critical defense, and autonomous navigation.
               </p>
 
               <p className="about-text">
@@ -71,7 +74,7 @@ export default function Home() {
             <strong>Edge computing</strong>,{" "}
             <strong>Non-terrestrial networks</strong>,{" "}
             <strong>digital twin</strong>, {" "}
-            <strong>metaverse</strong>, and{" "}
+            <strong>secure metaverse</strong>, and{" "}
             <strong>edge-cloud-continuum</strong>.
           </p>
 

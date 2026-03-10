@@ -36,12 +36,6 @@ export default function Sponsors() {
             collaborators play a key role in shaping the future of secure and
             intelligent networks.
           </p>
-
-          <div className="sponsors-tags">
-            <span className="sponsor-tag">Institutional Support</span>
-            <span className="sponsor-tag">Research Grants</span>
-            <span className="sponsor-tag">Joint Collaboration</span>
-          </div>
         </div>
 
         {/* Right column – scrolling logos */}
