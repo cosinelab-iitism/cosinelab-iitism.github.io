@@ -82,7 +82,7 @@
   }
 
   .about-layout {
-    flex-direction: column-reverse; /* image on top on mobile (change if you want text first) */
+    flex-direction: column; /* text first on mobile */
   }
 
   .about-title {
