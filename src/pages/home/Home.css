@@ -70,8 +70,9 @@
 .about-image {
   width: 100%;
   max-width: 500px; /* increased from 420px */
+  height: 300px;
   border-radius: 14px;
-  object-fit: cover;
+  object-fit: contain;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18);
 }
 

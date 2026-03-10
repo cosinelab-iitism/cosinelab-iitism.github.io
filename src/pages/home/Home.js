@@ -39,16 +39,12 @@ export default function Home() {
                 <strong>Edge Computing</strong>,{" "}
                 <strong>Non-terrestrial Networks (NTNs)</strong>,{" "}
                 <strong>Digital Twin</strong>, and the{" "}
-                <strong>Edge-Cloud Continuum</strong>.
+                <strong>Metaverse</strong>.
               </p>
 
               <p className="about-text">
-                We have recently secured multiple research grants — including
-                projects on developing a{" "}
-                <strong>Low-resource AI Vision system for Mining</strong>{" "}
-                supported by TEXMiN Foundation (DST TIH), a special lab-setup
-                grant, and a Faculty Research Scheme grant from IIT (ISM)
-                Dhanbad.
+                We have recently secured multiple research grants — funded by <strong>JCSTI, TiHAN, TEXMiN Foundation</strong>, 
+                and <strong>special grants from IIT (ISM) Dhanbad</strong> — to support our research on edge intelligence for future and secure networking.
               </p>
             </div>
 
@@ -74,7 +70,8 @@ export default function Home() {
             <strong>AI/ML</strong>, <strong>UAV-IoT networks</strong>,{" "}
             <strong>Edge computing</strong>,{" "}
             <strong>Non-terrestrial networks</strong>,{" "}
-            <strong>digital twin</strong>, and{" "}
+            <strong>digital twin</strong>, {" "}
+            <strong>metaverse</strong>, and{" "}
             <strong>edge-cloud-continuum</strong>.
           </p>
 
