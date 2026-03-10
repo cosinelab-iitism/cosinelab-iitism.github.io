@@ -4,12 +4,16 @@ import "./Sponsors.css";
 import iitLogo from "../images/iit-ism-logo.jpg";
 import texminLogo from "../images/texmin-iitism.jpg";
 import collabLogo from "../images/collab-institutes.jpg";
+import jcstiLogo from "../images/jcsti-logo.png";
+import tihanLogo from "../images/tihan-logo.png";
 
 export default function Sponsors() {
   const sponsors = [
     { id: 1, name: "IIT (ISM)", logo: iitLogo },
     { id: 2, name: "Texmin IITISM", logo: texminLogo },
-    { id: 3, name: "Collaborators", logo: collabLogo },
+    { id: 3, name: "JCSTI", logo: jcstiLogo },
+    { id: 4, name: "TIHAN", logo: tihanLogo },
+    { id: 5, name: "Collaborators", logo: collabLogo },
   ];
 
   return (
@@ -17,7 +21,6 @@ export default function Sponsors() {
       <div className="sponsors-container">
         {/* Left column – text */}
         <div className="sponsors-left">
-          <p className="sponsors-eyebrow">Partners in Innovation</p>
           <h2 className="sponsors-title">Our Sponsors & Collaborators</h2>
           <p className="sponsors-text">
             Our research is strengthened by the support of premier institutes
