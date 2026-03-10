@@ -48,6 +48,22 @@ function NewsTicker() {
     <div className="partners-section">
       <div className="partners-container">
         {/* LEFT – NEWS */}
+        <div className="content-card">
+          <span className="eyebrow-text">NEWS</span>
+
+          <h2 className="card-title">Our Latest News</h2>
+
+          <p className="card-text">
+            2 Papers accepted at IEEE ICC 2026 workshop, Glasgow, Scotland in May 2026. Congratulations to Tarun and Alekhya!
+          </p>
+
+          <p className="card-text">
+            Research project on "Resilient Edge-LoRa System for Early Gas Hazard Detection" is granted by the JCSTI.
+          </p>
+        </div>
+
+
+        {/* RIGHT – CONTENT */}
         <div className="news-panel">
           <div className="news-header">
             <span className="news-icon">📰</span>
@@ -74,27 +90,6 @@ function NewsTicker() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* RIGHT – CONTENT */}
-        <div className="content-card">
-          <span className="eyebrow-text">NEWS</span>
-
-          <h2 className="card-title">Our Latest News</h2>
-
-          <p className="card-text">
-            2 Papers accepted at IEEE ICC 2026 workshop, Glasgow, Scotland in May 2026. Congratulations to Tarun and Alekhya!
-          </p>
-
-          <p className="card-text">
-            Research project on "Resilient Edge-LoRa System for Early Gas Hazard Detection" is granted by the JCSTI.
-          </p>
-
-          <div className="tag-row">
-            <span className="tag">Institutional Support</span>
-            <span className="tag">Research Grants</span>
-            <span className="tag">Joint Collaboration</span>
           </div>
         </div>
       </div>
