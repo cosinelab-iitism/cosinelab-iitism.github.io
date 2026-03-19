@@ -77,7 +77,7 @@ const teamMembers = [
   },
   {
     name: "Mannan Golchha",
-    role: "B.Tech Student",
+    role: "B.Tech Student (Chanakya UG Intern @ TEXMiN)",
     description:
       "Topic: AI/ML for Networks",
     image: mannan,
