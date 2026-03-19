@@ -8,6 +8,7 @@ import tarun from "../../images/tarun.jpg";
 import pintu from "../../images/pintu.jpg";
 import subhadeep from "../../images/subhadeep.jpg";
 import debanshu from "../../images/debanshu.jpg";
+import mannan from "../../images/mannan.png";
 
 const teamMembers = [
   {
@@ -73,6 +74,14 @@ const teamMembers = [
       "Topic: Intelligent Networks",
     image: debanshu,
     linkedin: "https://www.linkedin.com/in/debanshu-jana-099a1336b/",
+  },
+  {
+    name: "Mannan Golchha",
+    role: "B.Tech Student",
+    description:
+      "Topic: AI/ML for Networks",
+    image: mannan,
+    linkedin: "https://www.linkedin.com/in/mannan-golchha/",
   },
 ];
 
