@@ -54,7 +54,7 @@ function NewsTicker() {
           <h2 className="card-title">Our Latest News</h2>
 
           <p className="card-text">
-            2 Papers accepted at IEEE ICC 2026 workshop, Glasgow, Scotland in May 2026. Congratulations to Tarun and Alekhya!
+            2 Papers accepted at IEEE ICC 2026 workshop, Glasgow, Scotland in May 2026 and 1 paper in VTC-Spring 2026, Nice, France. Congratulations to Tarun, Alekhya and Rohan!
           </p>
 
           <p className="card-text">

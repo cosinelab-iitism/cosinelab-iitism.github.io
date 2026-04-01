@@ -3,11 +3,22 @@
     "authors": "T. Ojha, M. M. Hussain, S. Bera, N. Ahmed, S. Misra (eds.)",
     "title": "Edge-enabled 6G Networking - Foundations, Technologies, and Applications",
     "venue": "Springer Nature [ISBN: 978-3032190413]",
-    "month": 5,
+    "month": 6,
     "year": 2026,
     "type": "book",
     "tags": ["Energy", "Security"],
     "link": "https://www.amazon.in/Edge-enabled-Networking-Foundations-Technologies-Applications/dp/303219041X",
+    "note": ""
+  },
+  {
+    "authors": "R. R. Devarapalli, N. Varshney, N. Choudhury, S. M. Zafaruddin, A. Kaushik, T. Ojha",
+    "title": "Fairness-Enhanced Multi-Hop RIS-Assisted UAV Networks With NOMA-Based Power Allocation",
+    "venue": "IEEE VTC-Spring",
+    "month": 6,
+    "year": 2026,
+    "type": "conference",
+    "tags": ["RIS", "Energy", "NTN"],
+    "link": "#",
     "note": ""
   },
    {
