@@ -11,17 +11,6 @@
     "note": ""
   },
   {
-    "authors": "R. R. Devarapalli, N. Varshney, N. Choudhury, S. M. Zafaruddin, A. Kaushik, T. Ojha",
-    "title": "Fairness-Enhanced Multi-Hop RIS-Assisted UAV Networks With NOMA-Based Power Allocation",
-    "venue": "IEEE VTC-Spring",
-    "month": 6,
-    "year": 2026,
-    "type": "conference",
-    "tags": ["RIS", "Energy", "NTN"],
-    "link": "#",
-    "note": ""
-  },
-   {
     "authors": "T. K. Das, T. Ojha, N. Choudhury, A. Kaushik",
     "title": "A Hybrid FL-MARL Framework for Optimal Trajectory Control and Resource Allocation in Integrated Terrestrial and Non-Terrestrial Networks",
     "venue": "IEEE ICC Workshops",
