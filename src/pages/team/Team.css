@@ -89,6 +89,7 @@
   color: #555;
   line-height: 1.6;
   margin-bottom: 20px;
+  min-height: 45px;
 }
 
 /* Previous members section */
@@ -112,18 +113,27 @@
 
 /* Button */
 .profile-btn {
-  display: inline-block;
-  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
   background: #2f3337;
   color: #fff;
   font-size: 14px;
   border-radius: 4px;
   text-decoration: none;
   transition: background 0.3s ease;
+  flex: 1;
 }
 
 .profile-btn:hover {
   background: #000;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 /* Responsive */

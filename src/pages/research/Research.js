@@ -37,7 +37,9 @@ export default function Research() {
           <p>
             Our research targets{" "}
             <strong>energy-efficient, secure, and scalable AI-driven intelligence</strong>
-            {" "}in resource-constrained settings such as underground mining, mission-critical defense, and autonomous navigation.
+            {" "}in resource-constrained settings such as underground mining, mission-critical defense, and autonomous navigation. 
+            Our recent works have applied machine learning techniques such as <strong>federated learning, reinforcement learning, and deep 
+            learning</strong> to optimize communication protocols, resource allocation, and network performance in these domains.
           </p>
         </div>
 
