@@ -9,6 +9,7 @@ import pintu from "../../images/pintu.jpg";
 import subhadeep from "../../images/subhadeep.jpg";
 import debanshu from "../../images/debanshu.jpg";
 import mannan from "../../images/mannan.png";
+import teammember from "../../images/team-member-placeholder.jpg";
 
 const teamMembers = [
   {
@@ -87,10 +88,28 @@ const teamMembers = [
     name: "Mannan Golchha",
     role: "B.Tech Student (Chanakya UG Intern @ TEXMiN)",
     description:
-      "Topic: AI/ML for Networks",
+      "Topic: Agentic AI",
     image: mannan,
     website: "#",
     linkedin: "https://www.linkedin.com/in/mannan-golchha/",
+  },
+    {
+    name: "Anjali Ojha",
+    role: "UG Intern",
+    description:
+      "Topic: AI/ML for Resource-constrained Networks",
+    image: teammember,
+    website: "#",
+    linkedin: "https://www.linkedin.com/in/anjali-ojha-919ab7287",
+  },  
+  {
+    name: "Gargi Kedia",
+    role: "UG Intern",
+    description:
+      "Topic: AI/ML for Resource-constrained Networks",
+    image: teammember,
+    website: "#",
+    linkedin: "https://www.linkedin.com/in/gargi-kedia-26626b27b",
   },
 ];
 
