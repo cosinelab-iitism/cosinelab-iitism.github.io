@@ -1,5 +1,16 @@
 [
   {
+  "authors": "M. Nepal, K. Phan, T. Ojha, A. Dutta, and M. K. S. Prasad",
+  "title": "M²FedAQI: Multimodal Federated Learning for Air Quality Prediction on Heterogeneous Edge Devices",
+  "venue": "arXiv preprint",
+  "month": 5,
+  "year": 2026,
+  "type": "preprint",
+  "tags": ["Federated Learning", "Edge Computing", "IoT", "AI/ML"],
+  "link": "https://arxiv.org/abs/2605.16375",
+  "note": ""
+},
+{
     "authors": "T. Raptis and T. Ojha",
     "title": "Gait-Diverse Avatar Selection for Realistic Synthetic Crowds in the Metaverse",
     "venue": "IEEE Computers, Software, and Applications Conference (COMPSAC 2026)",
@@ -39,7 +50,7 @@
     "month": 5,
     "year": 2026,
     "type": "conference",
-    "tags": ["NTN", "AI/ML", "Resource Allocation", "Energy"],
+    "tags": ["NTN", "AI/ML", "Edge Computing", "Federated Learning", "Resource Allocation", "Energy"],
     "link": "#",
     "note": ""
   },
@@ -50,7 +61,7 @@
     "month": 5,
     "year": 2026,
     "type": "conference",
-    "tags": ["LPWAN", "AI/ML", "Resource Allocation", "Energy"],
+    "tags": ["LPWAN", "AI/ML","Resource Allocation", "Energy"],
     "link": "#",
     "note": ""
   },
@@ -72,7 +83,7 @@
     "month": 12,
     "year": 2025,
     "type": "conference",
-    "tags": ["NTN", "AI/ML", "Resource Allocation", "Energy"],
+    "tags": ["NTN", "AI/ML", "Edge Computing", "Resource Allocation", "Energy"],
     "link": "https://ieeexplore.ieee.org/abstract/document/11430110",
     "note": ""
   },
@@ -94,7 +105,7 @@
     "month": 12,
     "year": 2025,
     "type": "conference",
-    "tags": ["NTN", "AI/ML", "Resource Allocation", "Energy"],
+    "tags": ["NTN", "AI/ML", "Edge Computing", "Resource Allocation", "Energy"],
     "link": "#",
     "note": ""
   },
@@ -116,7 +127,7 @@
     "month": 8,
     "year": 2025,
     "type": "conference",
-    "tags": ["AI/ML", "Security"],
+    "tags": ["AI/ML", "Security", "SDN", "Edge Computing"],
     "link": "https://ieeexplore.ieee.org/document/11254914",
     "note": ""
   },
@@ -127,7 +138,7 @@
     "month": 7,
     "year": 2025,
     "type": "conference",
-    "tags": ["Metaverse", "Security"],
+    "tags": ["Metaverse", "Security", "Edge Computing"],
     "link": "https://www.computer.org/csdl/proceedings-article/iscc/2025/11326103/2df96Jey9I4",
     "note": ""
   },
