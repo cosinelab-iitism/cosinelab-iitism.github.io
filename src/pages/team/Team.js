@@ -68,7 +68,7 @@ const teamMembers = [
   },
   {
     name: "Subhadeep Nandi",
-    role: "MSc Student",
+    role: "MSc Student (CIL - IMiN Fellowship 2026)",
     description:
       "Topic: Intelligent Networks",
     image: subhadeep,
@@ -77,7 +77,7 @@ const teamMembers = [
   },
   {
     name: "Debanshu Jana",
-    role: "MSc Student",
+    role: "MSc Student (CIL - IMiN Fellowship 2026)",
     description:
       "Topic: Intelligent Networks",
     image: debanshu,
