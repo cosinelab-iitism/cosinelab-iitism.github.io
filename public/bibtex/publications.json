@@ -1,4 +1,26 @@
 [
+{
+    "authors": "Afa, A. Kalita and T. Ojha",
+    "title": "Traffic Prediction and Load-Aware Adaptive RAW Slot Allocation for IEEE 802.11ah IoT Networks",
+    "venue": "TENCON 2026 - 2026 IEEE Region 10 Conference",
+    "month": 10,
+    "year": 2026,
+    "type": "conference",
+    "tags": ["LPWAN", "Resource Allocation"],
+    "link": "#",
+    "note": ""
+  },  
+  {
+    "authors": "A. Gupta, S. Kumawat, M. Verma, T. Ojha and A. Galav",
+    "title": "FADER: Frequency ADaptive implicit nEuRal representations",
+    "venue": "11th National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG)",
+    "month": 7,
+    "year": 2026,
+    "type": "conference",
+    "tags": ["AI/ML"],
+    "link": "#",
+    "note": ""
+  },
   {
   "authors": "M. Nepal, K. Phan, T. Ojha, A. Dutta, and M. K. S. Prasad",
   "title": "M²FedAQI: Multimodal Federated Learning for Air Quality Prediction on Heterogeneous Edge Devices",
@@ -22,7 +44,7 @@
     "note": ""
   },
   {
-    "authors": "T. K. Das and T. Ojha",
+    "authors": "T. K. Das and T. Ojha, S. Bhosale, S. Karmakar, S. Halder, S. Barik,",
     "title": "A Quantum Reinforcement Learning Framework for Sustainable Internet of Vehicles toward Future Electric Mobility",
     "venue": "IEEE International Conference on Sustainable Energy and Future Electric Transportation (SEFET)",
     "month": 7,

@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import "./NewsTicker.css";
 
 const newsItems = [
+    "June 2026: Papes accepted at NCVPRIPG 2026 (Jaipur, India) and TENCON 2026 (Bali, Indonesia). ",
+    "June 2026: MSc students, Debanshu and Subhadeep, selected for `CIL-IMiN Fellowship 2026'",
+    "June 2026: Prof. Ojha delivered a keynote lecture at Workshop 16 of IEEE VTC-Spring 2026 at Nice, France.",
+    "April 2026: Prof. Ojha will serve as Visa and Travel chair at IEEE ANTS 2026.",
+    "April 2026: Papers accepted in IEEE SEFET (VNIT Nagpur) and IEEE COMPSAC 2026 (Madrid, Spain). ",  
     "March 2026: 2 papers accepted in IEEE ICC. Congratulations to Tarun and Alekhya.",
     "February 2026: Prof. Ojha is joined as Associate Editor for the IEEE Networking Letters.",
     "February 2026: Prof. Ojha received research grant from JCSTI.",
@@ -54,7 +59,7 @@ function NewsTicker() {
           <h2 className="card-title">Our Latest News</h2>
 
           <p className="card-text">
-            2 Papers accepted at IEEE ICC 2026 workshop, Glasgow, Scotland in May 2026. Congratulations to Tarun and Alekhya!
+            Congratulations to Debanshu Jana and Subhadeep for CIL-IMiN Fellowship 2026! Papers accepted at IEEE NCVPRIPG and TENCON. 
           </p>
 
           <p className="card-text">
