@@ -139,7 +139,17 @@ export default function Publication() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Link
+                    {pub.buyLink ? "Publication" : "Link"}
+                  </a>
+                )}
+                {pub.buyLink && (
+                  <a
+                    className="pub-link"
+                    href={pub.buyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Buy
                   </a>
                 )}
                 {pub.bibtexLink && (
