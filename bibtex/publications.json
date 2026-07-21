@@ -62,7 +62,8 @@
     "year": 2026,
     "type": "book",
     "tags": ["Energy", "Security"],
-    "link": "https://www.amazon.in/Edge-enabled-Networking-Foundations-Technologies-Applications/dp/303219041X",
+    "link": "https://link.springer.com/book/10.1007/978-3-032-19042-0",
+    "buyLink": "https://www.amazon.in/Edge-enabled-Networking-Foundations-Technologies-Applications/dp/303219041X",
     "note": ""
   },
   {
