@@ -128,7 +128,7 @@
     "year": 2025,
     "type": "conference",
     "tags": ["NTN", "AI/ML", "Edge Computing", "Resource Allocation", "Energy"],
-    "link": "#",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11591227",
     "note": ""
   },
   {
@@ -139,7 +139,7 @@
     "year": 2025,
     "type": "conference",
     "tags": ["LPWAN", "AI/ML", "Resource Allocation"],
-    "link": "#",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11591191",
     "note": ""
   },
   {
