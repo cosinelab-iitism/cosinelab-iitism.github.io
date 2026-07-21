@@ -2,6 +2,7 @@ import React from "react";
 import "./Team.css";
 import tamoghna from "../../images/tamoghna.jpg";
 import arjab1 from "../../images/arjab1.jpg";
+import sanjeev from "../../images/sanjeev.jpg";
 import kimsie from "../../images/kimsie.jpg";
 import scaria from "../../images/scaria.jpg";
 import tarun from "../../images/tarun.jpg";
@@ -29,6 +30,15 @@ const teamMembers = [
     image: arjab1,
     website: "#",
     linkedin: "https://www.linkedin.com/in/arjab-de-919559312/",
+  },
+  {
+    name: "Sanjeev Kumar",
+    role: "PhD Student",
+    description:
+      "Topic: AI-Native Networking",
+    image: sanjeev,
+    website: "#",
+    linkedin: "https://www.linkedin.com/in/sanjeevnits",
   },
   {
     name: "Kimsie Phan",
@@ -113,7 +123,109 @@ const teamMembers = [
   },
 ];
 
+const previousMemberNames = [
+  "Scaria P Anil",
+  "Kimsie Phan",
+  "Tarun Kr Das",
+  "Gargi Kedia",
+  "Manjil Nepal",
+  "Jiya Debnath",
+  "Priyangshu Sahaji",
+  "Arshee Naz",
+];
+
+const currentMembers = teamMembers.filter(
+  (member) => !previousMemberNames.includes(member.name)
+);
+
+const previousMemberFallbacks = {
+  "Manjil Nepal": {
+    role: "Summer Intern - 2025",
+    description: "Topic: Federated Learning for Resource-constrained IoT",
+    image: teammember,
+    linkedin: "https://www.linkedin.com/in/manjilnepal/",
+  },
+  "Jiya Debnath": {
+    role: "Summer Intern - 2025",
+    description: "Topic: TinyML models",
+    image: teammember,
+    linkedin: "#",
+  },
+  "Priyangshu Sahaji": {
+    role: "Summer Intern - 2025",
+    description: "Topic: Resource-constrained IoT Networks",
+    image: teammember,
+    linkedin: "#",
+  },
+  "Arshee Naz": {
+    role: "ACM Anveshan Setu Visiting PhD Student - Summer 2025",
+    description: "Topic: AI/ML-based Communication Protocol for Non-Terrestrial Networks",
+    image: teammember,
+    linkedin: "https://www.linkedin.com/in/arshee-naz-098758167/",
+  },
+};
+
+const previousMembers = previousMemberNames.map((name) => {
+  const existingMember = teamMembers.find((member) => member.name === name);
+  if (existingMember) {
+    return existingMember;
+  }
+
+  return {
+    name,
+    ...previousMemberFallbacks[name],
+  };
+});
+
 export default function Team() {
+  const renderMemberCard = (member, index, showWebsite = true) => (
+    <div className="team-card" key={index}>
+      <div
+        className="team-card-image"
+        style={{ backgroundImage: `url(${member.image})` }}
+      >
+        <div className="card-overlay"></div>
+      </div>
+
+      <div className="team-card-body">
+        <h3>{member.name}</h3>
+        <h4>{member.role}</h4>
+        <p>{member.description}</p>
+
+        <div className="buttons-container">
+          {showWebsite && member.website && (
+            <a
+              href={member.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="profile-btn"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ marginRight: '5px' }}>
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="m12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              Website
+            </a>
+          )}
+          {member.linkedin && (
+            <a
+              href={member.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="profile-btn"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: '5px' }}>
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              LinkedIn
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <main className="team-page">
       <h1 className="team-title">Meet Our Team</h1>
@@ -122,69 +234,14 @@ export default function Team() {
       </p>
 
       <div className="team-grid">
-        {teamMembers.map((member, index) => (
-          <div className="team-card" key={index}>
-            <div
-              className="team-card-image"
-              style={{ backgroundImage: `url(${member.image})` }}
-            >
-              <div className="card-overlay"></div>
-            </div>
-
-            <div className="team-card-body">
-              <h3>{member.name}</h3>
-              <h4>{member.role}</h4>
-              <p>{member.description}</p>
-
-              <div className="buttons-container">
-                {member.website && (
-                  <a
-                    href={member.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="profile-btn"
-                  >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ marginRight: '5px' }}>
-                      <circle cx="12" cy="12" r="10"/>
-                      <line x1="2" y1="12" x2="22" y2="12"/>
-                      <path d="m12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                    </svg>
-                    Website
-                  </a>
-                )}
-                {member.linkedin && (
-                  <a
-                    href={member.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="profile-btn"
-                  >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: '5px' }}>
-                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                    </svg>
-                    LinkedIn
-                  </a>
-                )}
-              </div>
-            </div>
-          </div>
-        ))}
+        {currentMembers.map((member, index) => renderMemberCard(member, index, true))}
       </div>
 
-      {/* Previous members section with interns list */}
+      {/* Previous members section */}
       <section className="previous-members">
         <h2 className="previous-members-title">Previous Members</h2>
-        <div className="interns">
-          <h3>Summer Interns - 2025</h3>
-          <ul>
-            <li>Mr. Manjil Nepal. Topic: Federated Learning for Resource-constrained IoT</li>
-            <li>Ms. Jiya Debnath. Topic: TinyML models</li>
-            <li>Mr. Priyangshu Sahaji. Topic: Resource-constrained IoT Networks</li>
-          </ul>
-          <h3>ACM Anveshan Setu Visiting PhD Student - Summer 2025</h3>
-          <ul>
-            <li>Ms. Arshee Naz (NIT Delhi). Topic: AI/ML-based Communication Protocol for Non-Terrestrial Networks</li>
-          </ul>
+        <div className="team-grid previous-members-grid">
+          {previousMembers.map((member, index) => renderMemberCard(member, index, false))}
         </div>
       </section>
     </main>
