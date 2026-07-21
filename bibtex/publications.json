@@ -73,7 +73,7 @@
     "year": 2026,
     "type": "conference",
     "tags": ["NTN", "AI/ML", "Edge Computing", "Federated Learning", "Resource Allocation", "Energy"],
-    "link": "#",
+    "link": "https://ieeexplore.ieee.org/document/11586487",
     "note": ""
   },
   {
@@ -84,7 +84,7 @@
     "year": 2026,
     "type": "conference",
     "tags": ["LPWAN", "AI/ML","Resource Allocation", "Energy"],
-    "link": "#",
+    "link": "https://ieeexplore.ieee.org/abstract/document/11586449",
     "note": ""
   },
   {
