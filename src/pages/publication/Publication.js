@@ -144,7 +144,7 @@ export default function Publication() {
                 )}
                 {pub.buyLink && (
                   <a
-                    className="pub-link"
+                    className="pub-link pub-link-buy"
                     href={pub.buyLink}
                     target="_blank"
                     rel="noopener noreferrer"

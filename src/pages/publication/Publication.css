@@ -106,7 +106,7 @@
 .pub-link {
   display: inline-block;
   padding: 4px 8px;
-  background: #0f172a;
+  background: #2051c5;
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
@@ -116,7 +116,15 @@
 }
 
 .pub-link:hover {
-  background: #0b1523;
+  background: #0e2950;
+}
+
+.pub-link-buy {
+  background: #e97a13;
+}
+
+.pub-link-buy:hover {
+  background: #5f3004;
 }
 
 .pub-citation {
