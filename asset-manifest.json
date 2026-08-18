@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.256710e6.css",
-    "main.js": "/static/js/main.3c384b8c.js",
+    "main.js": "/static/js/main.b9e438b8.js",
     "static/js/453.7693b9cc.chunk.js": "/static/js/453.7693b9cc.chunk.js",
     "static/media/sanjeev.jpg": "/static/media/sanjeev.b2c74b182d2e4fb1d739.jpg",
     "static/media/cosine-bg.jpg": "/static/media/cosine-bg.7762792572fcb08551bd.jpg",
@@ -21,18 +21,18 @@
     "static/media/research-areas.jpg": "/static/media/research-areas.f8d413c4deae7848c4c6.jpg",
     "static/media/texmin-iitism.jpg": "/static/media/texmin-iitism.1cafb53a00eeaab38d9a.jpg",
     "static/media/scaria.jpg": "/static/media/scaria.42a119525b3517daada9.jpg",
+    "static/media/debanshu.jpg": "/static/media/debanshu.f6a4badc2520c5fd9056.jpg",
     "static/media/tarun.jpg": "/static/media/tarun.66089c3bb1933f3a8552.jpg",
-    "static/media/debanshu.jpg": "/static/media/debanshu.6dbde79a548c0d7d5ac8.jpg",
     "static/media/jcsti-logo.png": "/static/media/jcsti-logo.5704fa05f53fa952690c.png",
     "static/media/logo.png": "/static/media/logo.b8a4812546a656fdc224.png",
     "static/media/team-member-placeholder.jpg": "/static/media/team-member-placeholder.c87d3d75aad2a7af23ba.jpg",
     "index.html": "/index.html",
     "main.256710e6.css.map": "/static/css/main.256710e6.css.map",
-    "main.3c384b8c.js.map": "/static/js/main.3c384b8c.js.map",
+    "main.b9e438b8.js.map": "/static/js/main.b9e438b8.js.map",
     "453.7693b9cc.chunk.js.map": "/static/js/453.7693b9cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.256710e6.css",
-    "static/js/main.3c384b8c.js"
+    "static/js/main.b9e438b8.js"
   ]
 }
