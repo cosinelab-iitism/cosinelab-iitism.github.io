@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import "./NewsTicker.css";
 
 const newsItems = [
+  {
+    date: "July 2027",
+    text: "Our book, Edge-enabled 6G Networking - Foundations, Technologies, and Applications, is available for purchase.",
+    link: "https://www.amazon.in/Edge-enabled-Networking-Foundations-Technologies-Applications/dp/303219041X",
+  },
+  "October 2026: A new book chapter, 'Game-Theoretic Optimization of Edge-Enabled Gateways for Cloud-Integrated Access Networks,' is forthcoming in Cloud-Network Convergence (Springer Nature).",
+  "October 2026: 'Autonomous Traffic-Adaptive RAW Scheduling for IEEE 802.11ah IoT Networks' is part of the 28th ACM International Conference on Distributed Computing and Networking (ICDCN 2027) in Suratkal, India.",
     "June 2026: Papes accepted at NCVPRIPG 2026 (Jaipur, India) and TENCON 2026 (Bali, Indonesia). ",
     "June 2026: MSc students, Debanshu and Subhadeep, selected for `CIL-IMiN Fellowship 2026'",
     "June 2026: Prof. Ojha delivered a keynote lecture at Workshop 16 of IEEE VTC-Spring 2026 at Nice, France.",
@@ -35,7 +42,7 @@ const newsItems = [
 function groupByYear(items) {
   const groups = {};
   items.forEach(item => {
-    const [datePart] = item.split(': ');
+    const [datePart] = typeof item === "string" ? item.split(": ") : [item.date];
     const year = datePart.split(' ')[1];
     if (!groups[year]) groups[year] = [];
     groups[year].push(item);
@@ -47,7 +54,7 @@ const newsByYear = groupByYear(newsItems);
 const years = Object.keys(newsByYear).sort((a, b) => b - a);
 
 function NewsTicker() {
-  const [selectedYear, setSelectedYear] = useState('2026');
+  const [selectedYear, setSelectedYear] = useState(years[0] || '2026');
 
   return (
     <div className="partners-section">
@@ -59,11 +66,7 @@ function NewsTicker() {
           <h2 className="card-title">Our Latest News</h2>
 
           <p className="card-text">
-            Congratulations to Debanshu Jana and Subhadeep for CIL-IMiN Fellowship 2026! Papers accepted at IEEE NCVPRIPG and TENCON. 
-          </p>
-
-          <p className="card-text">
-            Research project on "Resilient Edge-LoRa System for Early Gas Hazard Detection" is granted by the JCSTI.
+            Recent publications include a forthcoming book chapter in <em>Cloud-Network Convergence</em> and a conference paper at ACM ICDCN 2027.
           </p>
         </div>
 
@@ -91,7 +94,16 @@ function NewsTicker() {
             <div className="news-scroll">
               {newsByYear[selectedYear].concat(newsByYear[selectedYear]).map((item, index) => (
                 <div className="news-item" key={index}>
-                  {item}
+                  {typeof item === "string" ? (
+                    item
+                  ) : (
+                    <>
+                      {item.date}: {item.text} {" "}
+                      <a href={item.link} target="_blank" rel="noopener noreferrer">
+                        Buy the book
+                      </a>
+                    </>
+                  )}
                 </div>
               ))}
             </div>
