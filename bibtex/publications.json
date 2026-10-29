@@ -1,4 +1,24 @@
 [
+  {
+    "authors": "A. Gorrela, N. Choudhury, T. Ojha, A. Hazarika, T. P. Raptis",
+    "highlightAuthor": "T. Ojha",
+    "title": "Game-Theoretic Optimization of Edge-Enabled Gateways for Cloud-Integrated Access Networks",
+    "venue": "In \"Cloud-Network Convergence\", J. Wu, J. Zhang and S. Gao (eds.), Springer Nature",
+    "year": 2027,
+    "type": "book-chapter",
+    "tags": ["Edge Computing", "Resource Allocation"],
+    "note": ""
+  },
+  {
+    "authors": "Afa, A. Kalita, T. Ojha",
+    "highlightAuthor": "T. Ojha",
+    "title": "Autonomous Traffic-Adaptive RAW Scheduling for IEEE 802.11ah IoT Networks",
+    "venue": "28th ACM International Conference on Distributed Computing and Networking (ICDCN 2027), Bali, Indonesia",
+    "year": 2026,
+    "type": "conference",
+    "tags": ["IoT", "Resource Allocation"],
+    "note": ""
+  },
 {
     "authors": "Afa, A. Kalita and T. Ojha",
     "title": "Traffic Prediction and Load-Aware Adaptive RAW Slot Allocation for IEEE 802.11ah IoT Networks",
