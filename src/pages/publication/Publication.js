@@ -107,7 +107,17 @@ export default function Publication() {
           const monthStr = pub.month ? monthNames[pub.month] : null;
 
           const citationParts = [];
-          if (pub.authors) citationParts.push(pub.authors);
+          if (pub.authors) {
+            const authorParts = pub.highlightAuthor &&
+              pub.authors.includes(pub.highlightAuthor)
+              ? pub.authors.split(pub.highlightAuthor).flatMap((part, index) =>
+                  index === 0
+                    ? [part, <strong key="highlighted-author">{pub.highlightAuthor}</strong>]
+                    : [part]
+                )
+              : [pub.authors];
+            citationParts.push(<>{authorParts}</>);
+          }
           if (pub.title) citationParts.push(`"${pub.title}"`);
           if (pub.venue) citationParts.push(
             <strong key="venue">
