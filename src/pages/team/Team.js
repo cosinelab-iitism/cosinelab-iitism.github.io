@@ -41,6 +41,15 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/sanjeevnits",
   },
   {
+    name: "Sapna Kumari",
+    role: "Project Associate",
+    description:
+      "Topic: AI/ML for Resource-constrained Networks",
+    image: teammember,
+    website: "#",
+    linkedin: "https://www.linkedin.com/in/sapna-kumari-36b336236/",
+  },
+  {
     name: "Kimsie Phan",
     role: "MSc Student",
     description:
@@ -124,6 +133,7 @@ const teamMembers = [
 ];
 
 const previousMemberNames = [
+  "Anjali Ojha",
   "Scaria P Anil",
   "Kimsie Phan",
   "Tarun Kr Das",
