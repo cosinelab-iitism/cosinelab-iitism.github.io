@@ -26,7 +26,7 @@ const teamMembers = [
     name: "Arjab De",
     role: "PhD Student",
     description:
-      "Topic: Futuristic Intelligent Networks",
+      "Topic: 6G V2X Networks",
     image: arjab1,
     website: "#",
     linkedin: "https://www.linkedin.com/in/arjab-de-919559312/",
@@ -35,10 +35,18 @@ const teamMembers = [
     name: "Sanjeev Kumar",
     role: "PhD Student",
     description:
-      "Topic: AI-Native Networking",
+      "Topic: AI-Native Semantic Networking",
     image: sanjeev,
     website: "#",
     linkedin: "https://www.linkedin.com/in/sanjeevnits",
+  },
+  {
+    name: "Afa",
+    role: "PhD Student",
+    description:
+      "Topic: MAC Protocols for IEEE 802.11ah",
+    image: teammember,
+    website: "#",
   },
   {
     name: "Sapna Kumari",
@@ -80,16 +88,24 @@ const teamMembers = [
     name: "Pintu Shaw",
     role: "MTech Student",
     description:
-      "Topic: Intelligent Networks",
+      "Topic: Agentic AI",
     image: pintu,
     website: "#",
     linkedin: "http://www.linkedin.com/in/pintu-shaw-641a50308",
   },
   {
+    name: "Surajit Das",
+    role: "M. Tech Student",
+    description:
+      "Topic: AI/ML for Networks",
+    image: teammember,
+    website: "#",
+  },
+  {
     name: "Subhadeep Nandi",
     role: "MSc Student (CIL - IMiN Fellowship 2026)",
     description:
-      "Topic: Intelligent Networks",
+      "Topic: Edge Computing for UAV Networks",
     image: subhadeep,
     website: "#",
     linkedin: "https://www.linkedin.com/in/subhadeep-nandi-8140672a7/",
@@ -98,7 +114,7 @@ const teamMembers = [
     name: "Debanshu Jana",
     role: "MSc Student (CIL - IMiN Fellowship 2026)",
     description:
-      "Topic: Intelligent Networks",
+      "Topic: Mine Digital Twin",
     image: debanshu,
     website: "#",
     linkedin: "https://www.linkedin.com/in/debanshu-jana-099a1336b/",
